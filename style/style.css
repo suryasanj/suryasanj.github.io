@@ -8,7 +8,7 @@ p {
 	margin-left: 13.8889%;
 	text-align: justify;
 	text-justify: inter-word;
-	font-family: Source Sans Pro, sans-serif;
+	font-family: Source Serif Pro, serif;
 	font-size: 22px;
 	font-feature-settings: "ss02";
 }
@@ -35,7 +35,7 @@ h3 {
 	margin-right: 13.8889%;
 	margin-left: 13.8889%;
 	font-weight: 400;
-	font-family: Signika, sans-serif;
+	font-family: Source Sans Pro, sans-serif;
 	font-size: 24px;
 }
 
@@ -389,7 +389,7 @@ sup, sub {
 }
 
 .dropdown-content {
-        display: none;
+	display: none;
         position: absolute;
         background-color: white;
         min-width: 100px;
