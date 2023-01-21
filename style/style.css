@@ -377,7 +377,6 @@ sup, sub {
 	transition-duration: 0.25s;
 }
 
-/*
 .dropbtn {
         background-color: inherit;
         border: none;
@@ -415,7 +414,6 @@ sup, sub {
 .dropdown:hover .dropdown-content {
 	display: block;
 }
-*/
 
 /* Animations */
 
