@@ -1,0 +1,419 @@
+/* Fonts */
+@import url("https://use.typekit.net/mhm1fyn.css");
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Signika:wght@300;400;500;600;700&display=swap');
+
+@font-face {
+        font-family: lib;
+        src: url(../fonts/linux/LinLibertine_R.otf) format("opentype");
+}
+
+@font-face {
+        font-family: lib;
+        src: url(../fonts/linux/LinLibertine_RB.otf) format("opentype");
+	font-weight: bold;
+}
+
+@font-face {
+        font-family: lib;
+        src: url(../fonts/linux/LinLibertine_RI.otf) format("opentype");
+	font-style: italic;
+}
+
+@font-face {
+        font-family: lib;
+        src: url(../fonts/linux/LinLibertine_RBI.otf) format("opentype");
+	font-style: italic;
+	font-weight: bold;
+}
+
+/* Block styles */
+p {
+	margin-right: 13.8889%;
+	margin-left: 13.8889%;
+	text-align: justify;
+	text-justify: inter-word;
+	font-family: lib, serif;
+	font-size: 22px;
+	font-feature-settings: "ss02";
+}
+
+h1 {
+	margin-right: 13.8889%;
+	margin-left: 13.8889%;
+	text-align: center;
+	font-family: itc-galliard, serif;
+	font-size: 36px;
+	margin-top: 30px;
+        font-weight: 700;
+}
+
+h2 {
+	margin-right: 13.8889%;
+	margin-left: 13.8889%;
+	font-family: Fira Sans, sans-serif;
+	font-size: 24px;
+	font-weight: 600;
+}
+
+h3 {
+	margin-right: 13.8889%;
+	margin-left: 13.8889%;
+	font-weight: 400;
+	font-family: Signika, sans-serif;
+	font-size: 24px;
+}
+
+a {
+	color: maroon;
+	font-weight:normal;
+	font-family: lib, serif;
+	text-decoration: none;
+        border-bottom: 3px solid white;
+        padding: 0 0 0 0;
+}
+
+a:hover {
+	color: black;
+	animation: linkload 0.2s;
+	animation-fill-mode: forwards;
+}
+
+ul {
+	margin-right: 13.8889%;
+	margin-left: 13.8889%;
+	font-family: lib, serif;
+	font-size: 20px;
+	list-style: none;
+	padding-left: 0;
+}
+
+ol {
+	margin-right: 13.8889%;
+	margin-left: 13.8889%;
+	font-family: lib, serif;
+	font-size: 20px;
+}
+
+li {
+	font-family: lib, serif;
+	font-size: 20px;
+	padding-left: 1em;
+	text-indent: -1.7em;
+}
+
+li:before {
+	content: "\E001";
+	padding-right: 0.5em;
+}
+
+hr {
+	margin-right: 13.8889%;
+	margin-left: 13.8889%;
+	margin-bottom: 200px;
+	margin-top: 25px;
+}
+
+table {
+        margin-right: 13.8889%;
+        margin-left: 13.8889%;
+        font-family: lib, serif;
+        font-size: 20px;
+	width: 72.2222%;
+}
+
+th {
+	text-align: left;
+}
+
+sup, sub {
+	font-size: 12.5px;
+}
+
+
+.blockq {
+        margin-left: 20.8333%;
+        margin-right: 20.8333%;
+}
+
+.container {
+	display: flex;
+}
+
+.container.space-around {
+	justify-content: space-around;
+}
+
+.container.space-between {  
+	justify-content: space-between;
+}
+
+.container.center {
+	justify-content: center;
+}
+
+.resp-el {
+	width: 35%;
+	height: 35%;
+	margin: auto;
+	display: block;	
+}
+
+.resp-right {
+        width: 72.2222%;
+        margin-left: 13.8889%;
+	margin-right: 13.8889%;
+        text-align: center;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1400px) {
+	.resp-el {
+		width: 35%;
+		float: left;
+		margin-left: 13.8889%
+	}
+        .resp-right {
+                width: 35%;
+                margin-left: 20px;
+		float: left;
+		text-align: left;
+        }
+}
+
+@media only screen and (min-width: 1400px) {
+        .resp-el {
+                width: 489px;
+                float: left;
+                margin-left: 13.8889%
+        }
+        .resp-right {
+                width: 35%;
+                margin-left: 20px;
+                float: left;
+                text-align: left;
+        }
+}
+
+
+/* Text styles and alignment */
+.bold {
+        font-family: lib, serif;
+        font-weight: 700;
+}
+
+.italic {
+        font-family: lib, serif;
+        font-style: italic;
+}
+
+.bolditalic {
+        font-family: lib, serif;
+        font-style: italic;
+        font-weight: 700;
+}
+
+
+
+.center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+}
+
+.left {
+        float: left;
+}
+
+.right {
+        float: right;
+}
+
+.fc {
+	float: left;
+  	font-size: 75px;
+  	line-height: 60px;
+  	padding-top: 4px;
+  	padding-right: 8px;
+  	padding-left: 3px;
+}
+
+
+/* Shapes */
+#box {
+	border-radius: 5px 5px 5px 5px;
+	padding: 5px;
+}
+
+#parent {
+	white-space: nowrap;
+}
+
+.child {
+	display: inline-block;
+}
+
+.textbox {
+	height: fit-content; 
+	width: fit-content; 
+	font-family: Source Sans Pro, sans-serif; 
+	font-size: 20px; 
+	color: white; 
+	padding: 3px 3px 3px 3px;
+	border-radius: 4px;
+	background-color: black;
+}
+
+
+
+/* Special text (foreign languages, etc.) */
+
+.dev {
+	font-family: Tiro Devanagari Sanskrit, serif;
+}
+
+.dev-2 {
+	font-family: Jaini Purva, serif;
+}
+
+.kan {
+	font-family: Arial Unicode MS, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.tam {
+	font-family: 'Anek', sans-serif;
+	font-variant-ligatures: historical-ligatures; 
+}
+
+.diac { 
+        font-family: lib, serif; 
+        font-size: 20px; 
+} 
+ 
+.diaci { 
+        font-family: lib, serif; 
+        font-style: italic; 
+        font-size: 20px; 
+} 
+ 
+.diacb { 
+        font-family: lib, serif; 
+        font-weight: 700;        
+        font-size: 20px; 
+} 
+ 
+.diacbi { 
+        font-family: lib, serif; 
+        font-weight: 700; 
+        font-style: italic; 
+        font-size: 20px; 
+}
+
+.ipa {
+	font-family: cmu, serif;
+	font-size: 17.5px;
+}
+
+.sc {
+        font-variant: small-caps;
+}
+
+
+
+/* Pop-ups and more */
+.ts {
+	position: relative;
+	display: inline-block;
+	font-family: lib, serif;
+	font-style: italic;
+	font-size: 20px;
+	z-index: 900;
+}
+
+.ts .tl {
+        visibility: hidden;
+        width: 300px;
+        background-color: white;
+        border-style: solid;
+        border-color: gray;
+        color: gray;
+        text-align: center;
+        border-radius: 6px;
+        padding: 5px 5px 5px 5px;
+        position: absolute;
+        z-index: 1;
+        bottom: 150%;
+        left: 50%;
+        margin-left: -150px;
+        font-family: lib, serif;
+        font-style: normal;
+        font-size: 20px;
+}
+
+
+.ts .tl::after {
+	content: "";
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	margin-left: -10px;
+	border-width: 10px;
+	border-style: solid;
+	border-color: gray transparent transparent transparent;
+}
+
+.ts:hover .tl {
+	visibility: visible;
+}
+
+.dd {
+        position: relative;
+        display: inline-block;
+        font-family: lib, serif;
+	color: black;
+        font-size: 12px;
+        z-index: 900;
+}
+
+.dd .ddc {
+        visibility: hidden;
+        background-color: white;
+        border-style: solid;
+        border-color: gray;
+        color: gray;
+        border-radius: 6px;
+        padding: 5px 5px 5px 5px;
+        position: absolute;
+        bottom: -550%;
+        left: 0%;
+        font-family: Source Sans Pro, sans-serif;
+        font-size: 15px;
+	width: 100px; 
+	margin-left: -50px;
+}
+
+.dd:hover .ddc {
+        visibility: visible;
+}
+
+.uni {
+	transition-duration: 0.25s;
+}
+
+
+/* Animations */
+
+@keyframes linkload {
+        0% {border-image: linear-gradient(to right, cyan 0%, white 0%) 1;}
+        10% {border-image: linear-gradient(to right, cyan 10%, white 0%) 1;}
+        20% {border-image: linear-gradient(to right, cyan 20%, white 0%) 1;}
+        30% {border-image: linear-gradient(to right, cyan 30%, white 0%) 1;}
+        40% {border-image: linear-gradient(to right, cyan 40%, white 0%) 1;}
+        50% {border-image: linear-gradient(to right, cyan 50%, white 0%) 1;}
+        60% {border-image: linear-gradient(to right, cyan 60%, white 0%) 1;}
+        70% {border-image: linear-gradient(to right, cyan 70%, white 0%) 1;}
+        80% {border-image: linear-gradient(to right, cyan 80%, white 0%) 1;}
+        90% {border-image: linear-gradient(to right, cyan 90%, white 0%) 1;}
+        100% {border-image: linear-gradient(to right, cyan 100%, white 0%) 1;}
+}
