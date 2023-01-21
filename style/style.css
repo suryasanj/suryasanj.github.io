@@ -392,7 +392,7 @@ sup, sub {
         display: none;
         position: absolute;
         background-color: white;
-        min-width: 75px;
+        min-width: 100px;
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
         z-index: 1;
         border: 1px solid black;
@@ -401,7 +401,7 @@ sup, sub {
 
 .dropdown-content {
         color: black;
-        font-size: 18px;
+        font-size: 24px;
         padding: 12px 16px;
         text-decoration: none;
         display: none;
