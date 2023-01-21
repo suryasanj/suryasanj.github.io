@@ -2,13 +2,44 @@
 @import url("https://use.typekit.net/mhm1fyn.css");
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&family=Source+Serif+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
 
+@font-face {
+        font-family: lib;
+        src: url(fonts/lib.otf) format("opentype");
+}
+
+@font-face {
+        font-family: lib;
+        src: url(fonts/libb.otf) format("opentype");
+        font-weight: bold;
+}
+
+@font-face {
+        font-family: lib;
+        src: url(fonts/libi.otf) format("opentype");
+        font-style: italic;
+}
+
+@font-face {
+        font-family: lib;
+        src: url(fonts/libbi.otf) format("opentype");
+        font-style: italic;
+        font-weight: bold;
+}
+
+
+
+
+
+
+
+
 /* Block styles */
 p {
 	margin-right: 13.8889%;
 	margin-left: 13.8889%;
 	text-align: justify;
 	text-justify: inter-word;
-	font-family: Source Serif Pro, serif;
+	font-family: lib, serif;
 	font-size: 22px;
 	font-feature-settings: "ss02";
 }
@@ -42,7 +73,7 @@ h3 {
 a {
 	color: maroon;
 	font-weight:normal;
-	font-family: Source Sans Pro, sans-serif;
+	font-family: lib, serif;
 	text-decoration: none;
         border-bottom: 3px solid white;
         padding: 0 0 0 0;
@@ -57,7 +88,7 @@ a:hover {
 ul {
 	margin-right: 13.8889%;
 	margin-left: 13.8889%;
-	font-family: Source Sans Pro, sans-serif;
+	font-family: lib, serif;
 	font-size: 20px;
 	list-style: none;
 	padding-left: 0;
@@ -71,7 +102,7 @@ ol {
 }
 
 li {
-	font-family: Source Sans Pro, sans-serif;
+	font-family: lib, serif;
 	font-size: 20px;
 	padding-left: 1em;
 	text-indent: -1.7em;
@@ -92,7 +123,7 @@ hr {
 table {
         margin-right: 13.8889%;
         margin-left: 13.8889%;
-        font-family: Source Sans Pro, sans-serif;
+        font-family: lib, serif;
         font-size: 20px;
 	width: 72.2222%;
 }
