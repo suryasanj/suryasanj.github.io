@@ -186,6 +186,10 @@ p.subtitle {
     color: var(--aurora-red);
 }
 
+.breadcrumb {
+    font-variant: small-caps;
+}
+
 article {
     padding: 5rem 0rem;
 }
