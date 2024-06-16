@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>June 15, 2024</title>
+    <link rel="stylesheet" href="https://suryasanj.github.io/style/tufte.css"/>
+    <script>
+      MathJax = {
+        tex: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']],
+          packages: {'[+]': ['mathtools']},
+        }
+      };
+    </script>
+    <script id="MathJax-script" async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+    </script>
+    <script>
+      function checkAnswer() {
+        // Get the selected answer
+        var selectedAnswer = document.querySelector('input[name="capital"]:checked');
+        // Check if an answer is selected
+        if (selectedAnswer) {
+          // Check if the selected answer is correct (for example, "paris")
+          if (selectedAnswer.id === "tree") {
+            // Redirect to Google.com
+            window.location.href = "https://www.google.com";
+          } else {
+            // Provide feedback or handle incorrect answer
+            alert("Incorrect answer. Please try again.");
+          }
+        } else {
+          // Handle case where no answer is selected
+          alert("Please select an answer.");
+        }
+      }
+    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+
+  <body>
+    <article>
+      
+      <h1 id="tufte-css">June 15, 2024</h1>
+      <p class="subtitle">Surya Sanjay</p>
+
+      <section>
+
+        <p>Twice a year, I write a card for you and Amma—one for
+        $\{\text{mother’s}, \text{father’s}\}$ day,<!--
+       --><label for="set-expl" class="margin-toggle sidenote-number"></label>
+          <input type="checkbox" id="set-expl" class="margin-toggle" />
+          <span class="sidenote">
+            One might ask: why use set notation to describe two words? My
+            answer: efficiency is key to success, no matter how small the gain
+            might be.
+          </span>
+        and another for your birthdays. However, this year I had a seemingly
+        unresolvable issue: we ran out of printer paper, and before I could
+        realize that fact, the window to secretly pull sheets of blank paper to
+        create a card had inevitably closed.</p>
+
+        <p>That hasn’t stopped me from finding another way to deliver the same
+        message. I just had to be more... creative.</p>
+
+        <p>Before moving forward, we need to verify your identity, since this is
+        on the internet.</p>
+
+        <form action="/submit-your-form-handler" method="post">
+          <p>What is the meaning of “guski”?</p>
+          <input type="radio" id="bunny" name="capital" value="bunny">
+          <label for="bunny">Bunny</label><br>
+          <input type="radio" id="sky" name="capital" value="sky">
+          <label for="sky">Sky</label><br>
+          <input type="radio" id="tree" name="capital" value="tree">
+          <label for="tree">Tree</label><br>
+          <input type="radio" id="house" name="capital" value="house">
+          <label for="house">House</label><br><br>
+          <input type="submit" value="Submit" onclick="checkAnswer()">
+        </form>
+
+      </section>
+
+    </article>
+  </body>
+</html>
