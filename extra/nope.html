@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>June 15, 2024</title>
+    <link rel="stylesheet" href="https://suryasanj.github.io/style/tufte.css"/>
+    <script>
+      MathJax = {
+        tex: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']],
+          packages: {'[+]': ['mathtools']},
+        }
+      };
+    </script>
+    <script id="MathJax-script" async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+    </script>
+    <script>
+      function checkAnswer() {
+        // Get the selected answer
+        var selectedAnswer = document.querySelector('input[name="capital"]:checked');
+        // Check if an answer is selected
+        if (selectedAnswer) {
+          // Check if the selected answer is correct (for example, "paris")
+          if (selectedAnswer.id === "tree") {
+            // Redirect to Google.com
+            window.location.href = "https://www.google.com";
+          } else {
+            // Provide feedback or handle incorrect answer
+            alert("Incorrect answer. Please try again.");
+          }
+        } else {
+          // Handle case where no answer is selected
+          alert("Please select an answer.");
+        }
+      }
+    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+
+  <body>
+    <article>
+      
+      <h1 id="tufte-css">Nope</h1>
+      <p class="subtitle">Who are you and why are you impersonating my father?!!</p>
+
+    </article>
+  </body>
+</html>
