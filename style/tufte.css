@@ -117,6 +117,7 @@ body {
     color: var(--polar-night-3);
     max-width: 1400px;
     counter-reset: sidenote-counter;
+    font-variant-numeric: oldstyle-nums;
 }
 
 /* Adds dark mode */
