@@ -197,8 +197,13 @@ p,
 dl,
 ol,
 ul {
+    font-family: Myriad Pro;
     font-size: 1.4rem;
     line-height: 2rem;
+}
+
+ul {
+    list-style-type: ›;
 }
 
 p {
