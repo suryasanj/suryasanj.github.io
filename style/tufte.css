@@ -371,7 +371,8 @@ img {
 }
 
 .date {
-    color: var(--polar-night-3);
+    color: var(--frost-0);
+    font-style: italic;
 }
 
 .sidenote,
