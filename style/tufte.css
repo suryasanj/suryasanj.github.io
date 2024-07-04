@@ -197,19 +197,13 @@ p,
 dl,
 ol,
 ul { /* initially, 1.4rem and 2rem */
-    font-size: 1rem;
+    font-size: 1.4rem;
     line-height: 2rem;
 }
 
 ol,
 ul {
     font-family: myriad-pro, sans-serif;
-    display: list-item;
-    list-style-type: "›";
-}
-
-ul {
-
 }
 
 p {
