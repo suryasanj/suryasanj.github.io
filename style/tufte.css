@@ -203,6 +203,7 @@ ul {
 }
 
 ul {
+    display: list-item;
     list-style-type: ›;
 }
 
