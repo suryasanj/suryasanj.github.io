@@ -173,7 +173,7 @@ p.subtitle {
 }
 
 .numeral {
-    font-family: Minion 3;
+    font-family: minion-3;
 }
 
 .danger {
@@ -197,7 +197,7 @@ p,
 dl,
 ol,
 ul {
-    font-family: Myriad Pro;
+    font-family: myriad-pro;
     font-size: 1.4rem;
     line-height: 2rem;
 }
