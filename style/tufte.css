@@ -297,6 +297,7 @@ figure.fullwidth figcaption {
 /* Links: replicate underline that clears descenders */
 a {
     color: var(--frost-3); 
+    text-decoration: none;
 }
 
 /*
@@ -328,7 +329,6 @@ a:link, .tufte-underline, .hover-tufte-underline:hover {
     }
 }
 
-/* Adds dark mode */
 @media (prefers-color-scheme: dark) {
     a:link, .tufte-underline, .hover-tufte-underline:hover {
         text-shadow: 0.03em 0 var(--polar-night-0), -0.03em 0 var(--polar-night-0), 0 0.03em var(--polar-night-0), 0 -0.03em var(--polar-night-0), 0.06em 0 var(--polar-night-0), -0.06em 0 var(--polar-night-0), 0.09em 0 var(--polar-night-0), -0.09em 0 var(--polar-night-0), 0.12em 0 var(--polar-night-0), -0.12em 0 var(--polar-night-0), 0.15em 0 var(--polar-night-0), -0.15em 0 var(--polar-night-0);
