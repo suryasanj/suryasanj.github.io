@@ -113,7 +113,7 @@ body {
     margin-right: auto;
     padding-left: 12.5%;
     font-family: minion-3;
-    background-color: var(--snow-storm-2);
+    background-color: var(--snow-storm-0);
     color: var(--polar-night-3);
     max-width: 1400px;
     counter-reset: sidenote-counter;
@@ -371,7 +371,7 @@ img {
 }
 
 .date {
-    color: var(--snow-storm-0);
+    color: var(--polar-night-3);
 }
 
 .sidenote,
