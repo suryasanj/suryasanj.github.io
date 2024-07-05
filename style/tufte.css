@@ -119,6 +119,12 @@ body {
     counter-reset: sidenote-counter;
 }
 
+.date {
+    font-family: myriad-pro;
+    font-size: 1.3rem;
+    color: var(--polar-night-3);
+}
+
 /* Adds dark mode */
 @media (prefers-color-scheme: dark) {
     body {
@@ -372,12 +378,6 @@ a:link::-moz-selection {
 /* Sidenotes, margin notes, figures, captions */
 img {
     max-width: 100%;
-}
-
-.date {
-    font-family: myriad-pro;
-    font-size: 1.3rem;
-    color: var(--polar-night-3);
 }
 
 .sidenote,
