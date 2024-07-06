@@ -83,6 +83,12 @@ src:url("https://use.typekit.net/af/cafa63/00000000000000000001709a/27/l?primer=
 font-display:auto;font-style:normal;font-weight:400;font-stretch:normal;
 }
 
+@font-face {
+font-family:"edita";
+src:url("https://use.typekit.net/af/cafa63/00000000000000000001709a/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/cafa63/00000000000000000001709a/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/cafa63/00000000000000000001709a/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;font-stretch:normal;
+}
+
 /* Tufte CSS styles */
 html {
     font-size: 14px; /* font-size: 15px; */
@@ -135,6 +141,7 @@ body {
 }
 
 h1 {
+    font-family: edita, serif;
     font-weight: 400;
     margin-top: 4rem;
     margin-bottom: 1.5rem;
