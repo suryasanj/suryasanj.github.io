@@ -135,7 +135,7 @@ body {
 /* Adds dark mode */
 @media (prefers-color-scheme: dark) {
     body {
-        background-color: var(--polar-night-0);
+        background-color: black;
         color: var(--snow-storm-0);
     }
 }
