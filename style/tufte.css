@@ -60,32 +60,26 @@ font-display:auto;font-style:italic;font-weight:600;font-stretch:normal;
 }
 
 @font-face {
-font-family:"myriad-pro";
+font-family:"neue-haas-unica";
 src:url("https://use.typekit.net/af/1b1b1e/00000000000000000001709e/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/1b1b1e/00000000000000000001709e/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/1b1b1e/00000000000000000001709e/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
 font-display:auto;font-style:normal;font-weight:700;font-stretch:normal;
 }
 
 @font-face {
-font-family:"myriad-pro";
+font-family:"neue-haas-unica";
 src:url("https://use.typekit.net/af/2e2357/00000000000000000001709f/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff2"),url("https://use.typekit.net/af/2e2357/00000000000000000001709f/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff"),url("https://use.typekit.net/af/2e2357/00000000000000000001709f/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("opentype");
 font-display:auto;font-style:italic;font-weight:700;font-stretch:normal;
 }
 
 @font-face {
-font-family:"myriad-pro";
+font-family:"neue-haas-unica";
 src:url("https://use.typekit.net/af/d32e26/00000000000000000001709b/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff2"),url("https://use.typekit.net/af/d32e26/00000000000000000001709b/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff"),url("https://use.typekit.net/af/d32e26/00000000000000000001709b/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("opentype");
 font-display:auto;font-style:italic;font-weight:400;font-stretch:normal;
 }
 
 @font-face {
-font-family:"myriad-pro";
+font-family:"neue-haas-unica";
 src:url("https://use.typekit.net/af/cafa63/00000000000000000001709a/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/cafa63/00000000000000000001709a/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/cafa63/00000000000000000001709a/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
-font-display:auto;font-style:normal;font-weight:400;font-stretch:normal;
-}
-
-@font-face {
-font-family:"edita";
-src:url("https://use.typekit.net/af/44d38e/00000000000000000000df55/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/44d38e/00000000000000000000df55/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/44d38e/00000000000000000000df55/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
 font-display:auto;font-style:normal;font-weight:400;font-stretch:normal;
 }
 
@@ -126,7 +120,7 @@ body {
 }
 
 .date {
-    font-family: myriad-pro;
+    font-family: neue-haas-unica;
     font-style: italic;
     font-size: 1.3rem;
     color: var(--polar-night-3);
@@ -141,7 +135,7 @@ body {
 }
 
 h1 {
-    font-family: edita, serif;
+    font-family: neue-haas-unica, serif;
     font-weight: 400;
     margin-top: 4rem;
     margin-bottom: 1.5rem;
@@ -218,7 +212,7 @@ ul { /* initially, 1.4rem and 2rem */
 ol,
 ul {
     font-size: 1.3rem;
-    font-family: myriad-pro, sans-serif;
+    font-family: neue-haas-unica, sans-serif;
 }
 
 p {
@@ -387,7 +381,7 @@ img {
 
 .sidenote,
 .marginnote {
-    font-family: myriad-pro, sans-serif;
+    font-family: neue-haas-unica, sans-serif;
     float: right;
     clear: right;
     margin-right: -60%;
@@ -406,7 +400,7 @@ img {
 
 .sidenote-number:after,
 .sidenote:before {
-    font-family: myriad-pro;
+    font-family: neue-haas-unica;
     position: relative;
     vertical-align: baseline;
 }
@@ -438,11 +432,11 @@ table.fullwidth {
 
 div.table-wrapper {
     overflow-x: auto;
-    font-family: myriad-pro; /* "Trebuchet MS", "Gill Sans", "Gill Sans MT", sans-serif; */
+    font-family: neue-haas-unica; /* "Trebuchet MS", "Gill Sans", "Gill Sans MT", sans-serif; */
 }
 
 .sans {
-    font-family: myriad-pro; /* "Trebuchet MS", "Gill Sans", "Gill Sans MT", sans-serif; */
+    font-family: neue-haas-unica; /* "Trebuchet MS", "Gill Sans", "Gill Sans MT", sans-serif; */
     letter-spacing: .03em;
 }
 
