@@ -349,7 +349,7 @@ figure.fullwidth figcaption {
 
 /* Links: replicate underline that clears descenders */
 a {
-    color: var(--lintblauw); 
+    color: var(--donkerblauw); 
     text-decoration: none;
 }
 
