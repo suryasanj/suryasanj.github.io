@@ -121,24 +121,25 @@ html {
 }
 
 :root {
-    --rijkshuisstijl-blauw: #154273;
-    --rijkshuisstijl-paars: #42145f;
-    --rijkshuisstijl-violet: #a90061;
-    --rijkshuisstijl-robijnrood: #ca005d;
-    --rijkshuisstijl-roze: #f092cd;
-    --rijkshuisstijl-rood: #d52b1e;
-    --rijkshuisstijl-oranje: #e17000;
-    --rijkshuisstijl-donkergeel: #ffb612;
-    --rijkshuisstijl-geel: #f9e11e;
-    --rijkshuisstijl-donkerbruin: #673327;
-    --rijkshuisstijl-bruin: #94710a;
-    --rijkshuisstijl-donkergroen: #275937;
-    --rijkshuisstijl-groen: #39870c;
-    --rijkshuisstijl-mosgroen: #777b00;
-    --rijkshuisstijl-mintgroen: #76d2b6;
-    --rijkshuisstijl-donkerblauw: #01689b;
-    --rijkshuisstijl-hemelblauw: #007bc7;
-    --rijkshuisstijl-lichtblauw: #8fcae7;
+    --blauw: #154273;
+    --paars: #42145f;
+    --violet: #a90061;
+    --robijnrood: #ca005d;
+    --roze: #f092cd;
+    --rood: #d52b1e;
+    --oranje: #e17000;
+    --donkergeel: #ffb612;
+    --geel: #f9e11e;
+    --donkerbruin: #673327;
+    --bruin: #94710a;
+    --donkergroen: #275937;
+    --groen: #39870c;
+    --mosgroen: #777b00;
+    --mintgroen: #76d2b6;
+    --donkerblauw: #01689b;
+    --hemelblauw: #007bc7;
+    --lichtblauw: #8fcae7;
+    --griis-4: #b4b4b4;
 }
 
 
@@ -157,7 +158,7 @@ body {
     font-variant: small-caps;
     text-transform: lowercase;
     font-size: 1.0rem;
-    color: var(--donkergroen);
+    color: var(--griis-4);
 }
 
 /* Adds dark mode */
