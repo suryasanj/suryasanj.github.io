@@ -151,16 +151,16 @@ h2 {
     margin-bottom: 1.4rem;
     font-size: 2.2rem;
     line-height: 1;
-    text-align: center;
 }
 
 h3 {
-    font-style: italic;
+    font-variant: small-caps;
     font-weight: 400;
     font-size: 1.7rem;
     margin-top: 2rem;
     margin-bottom: 1.4rem;
     line-height: 1;
+    text-align: center;
 }
 
 hr {
