@@ -117,7 +117,7 @@ font-display:auto;font-style:normal;font-weight:400;font-stretch:normal;
 
 /* Tufte CSS styles */
 html {
-    font-size: 14px; /* font-size: 15px; */
+    font-size: 12px; /* font-size: 15px; */
 }
 
 :root {
@@ -160,7 +160,7 @@ body {
 @media (prefers-color-scheme: dark) {
     body {
         background-color: black;
-        color: white; /* var(--snow-storm-0); */
+        color: white;
     }
 }
 
@@ -254,13 +254,6 @@ p {
     margin-bottom: 1.4rem;
     padding-right: 0;
     vertical-align: baseline;
-}
-
-.numbered::before {
-    content: "sdf";
-    position: relative;
-    margin-right: 20px;
-    padding-left: 5px;
 }
 
 /* Chapter Epigraphs */
