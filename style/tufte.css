@@ -121,23 +121,26 @@ html {
 }
 
 :root {
-    --polar-night-0: #2E3440;
-    --polar-night-1: #3B4252;
-    --polar-night-2: #434C5E;
-    --polar-night-3: #4C566A;
-    --snow-storm-0: #D8DEE9;
-    --snow-storm-1: #E5E9F0;
-    --snow-storm-2: #ECEFF4;
-    --frost-0: #8FBCBB;
-    --frost-1: #88C0D0;
-    --frost-2: #81A1C1;
-    --frost-3: #5E81AC;
-    --aurora-red: #BF616A;
-    --aurora-orange: #D08770;
-    --aurora-yellow: #EBCB8B;
-    --aurora-green: #A3BE8C;
-    --aurora-purple: #B48EAD;
+    --rijkshuisstijl-blauw: #154273;
+    --rijkshuisstijl-paars: #42145f;
+    --rijkshuisstijl-violet: #a90061;
+    --rijkshuisstijl-robijnrood: #ca005d;
+    --rijkshuisstijl-roze: #f092cd;
+    --rijkshuisstijl-rood: #d52b1e;
+    --rijkshuisstijl-oranje: #e17000;
+    --rijkshuisstijl-donkergeel: #ffb612;
+    --rijkshuisstijl-geel: #f9e11e;
+    --rijkshuisstijl-donkerbruin: #673327;
+    --rijkshuisstijl-bruin: #94710a;
+    --rijkshuisstijl-donkergroen: #275937;
+    --rijkshuisstijl-groen: #39870c;
+    --rijkshuisstijl-mosgroen: #777b00;
+    --rijkshuisstijl-mintgroen: #76d2b6;
+    --rijkshuisstijl-donkerblauw: #01689b;
+    --rijkshuisstijl-hemelblauw: #007bc7;
+    --rijkshuisstijl-lichtblauw: #8fcae7;
 }
+
 
 body {
     width: 87.5%;
@@ -151,9 +154,10 @@ body {
 
 .date {
     font-family: neue-haas-unica;
-    font-style: italic;
-    font-size: 1.3rem;
-    color: var(--polar-night-3);
+    font-variant: small-caps;
+    text-transform: lowercase;
+    font-size: 1.0rem;
+    color: var(--donkergroen);
 }
 
 /* Adds dark mode */
@@ -219,7 +223,7 @@ p.subtitle {
 }
 
 .danger {
-    color: var(--aurora-red);
+    color: var(--rood);
 }
 
 .breadcrumb {
@@ -344,7 +348,7 @@ figure.fullwidth figcaption {
 
 /* Links: replicate underline that clears descenders */
 a {
-    color: var(--frost-3); 
+    color: var(--lintblauw); 
     text-decoration: none;
 }
 
@@ -389,24 +393,6 @@ a:link::-moz-selection {
     background: #b4d5fe;
 }
 */
-
-/* Nord Palette Colors */
-.polar-night-0 { color: var(--polar-night-0); }
-.polar-night-1 { color: var(--polar-night-1); }
-.polar-night-2 { color: var(--polar-night-2); }
-.polar-night-3 { color: var(--polar-night-3); } 
-.snow-storm-0 { color: var(--snow-storm-0); }
-.snow-storm-1 { color: var(--snow-storm-1); }
-.snow-storm-2 { color: var(--snow-storm-2); }
-.frost-0 { color: var(--frost-0); }
-.frost-1 { color: var(--frost-1); }
-.frost-2 { color: var(--frost-2); }
-.frost-3 { color: var(--frost-3); }
-.aurora-red { color: var(--aurora-red); }
-.aurora-orange { color: var(--aurora-orange); }
-.aurora-yellow { color: var(--aurora-yellow); }
-.aurora-green { color: var(--aurora-green); }
-.aurora-purple { color: var(--aurora-purple); }
 
 /* Sidenotes, margin notes, figures, captions */
 img {
