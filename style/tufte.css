@@ -205,7 +205,7 @@ img.invert { }
         color: white;
     }
     img.invert {
-    	filter: invert(100%); 
+    	filter: invert(30%); 
     }
 }
 
