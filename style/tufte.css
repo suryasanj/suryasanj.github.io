@@ -115,6 +115,30 @@ font-display:auto;font-style:normal;font-weight:400;font-stretch:normal;
 }
 
 
+@font-face {
+font-family:"adobe-kannada";
+src:url("https://use.typekit.net/af/cf0dba/00000000000000007735a65c/30/l?subset_id=2&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/cf0dba/00000000000000007735a65c/30/d?subset_id=2&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/cf0dba/00000000000000007735a65c/30/a?subset_id=2&fvd=n7&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:700;font-stretch:normal;
+}
+
+@font-face {
+font-family:"adobe-kannada";
+src:url("https://use.typekit.net/af/c0c653/00000000000000007735a65e/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/c0c653/00000000000000007735a65e/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/c0c653/00000000000000007735a65e/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;font-stretch:normal;
+}
+
+@font-face {
+font-family:"adobe-kannada";
+src:url("https://use.typekit.net/af/cfc80a/00000000000000007735a661/30/l?subset_id=2&fvd=i4&v=3") format("woff2"),url("https://use.typekit.net/af/cfc80a/00000000000000007735a661/30/d?subset_id=2&fvd=i4&v=3") format("woff"),url("https://use.typekit.net/af/cfc80a/00000000000000007735a661/30/a?subset_id=2&fvd=i4&v=3") format("opentype");
+font-display:auto;font-style:italic;font-weight:400;font-stretch:normal;
+}
+
+@font-face {
+font-family:"adobe-kannada";
+src:url("https://use.typekit.net/af/fd917c/00000000000000007735a664/30/l?subset_id=2&fvd=i7&v=3") format("woff2"),url("https://use.typekit.net/af/fd917c/00000000000000007735a664/30/d?subset_id=2&fvd=i7&v=3") format("woff"),url("https://use.typekit.net/af/fd917c/00000000000000007735a664/30/a?subset_id=2&fvd=i7&v=3") format("opentype");
+font-display:auto;font-style:italic;font-weight:700;font-stretch:normal;
+}
+
 /* Tufte CSS styles */
 html {
     font-size: 12px; /* font-size: 15px; */
@@ -217,6 +241,10 @@ p.subtitle {
     font-size: 1.8rem;
     display: block;
     line-height: 1;
+}
+
+.kan {
+    font-family: adobe-kannada;
 }
 
 .numeral {
