@@ -67,6 +67,30 @@
 
 /* Access at https://use.typekit.net/mhm1fyn.css */
 @font-face {
+font-family:"adobe-kannada";
+src:url("https://use.typekit.net/af/cf0dba/00000000000000007735a65c/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/cf0dba/00000000000000007735a65c/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/cf0dba/00000000000000007735a65c/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:700;font-stretch:normal;
+}
+
+@font-face {
+font-family:"adobe-kannada";
+src:url("https://use.typekit.net/af/c0c653/00000000000000007735a65e/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/c0c653/00000000000000007735a65e/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/c0c653/00000000000000007735a65e/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;font-stretch:normal;
+}
+
+@font-face {
+font-family:"adobe-kannada";
+src:url("https://use.typekit.net/af/cfc80a/00000000000000007735a661/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff2"),url("https://use.typekit.net/af/cfc80a/00000000000000007735a661/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff"),url("https://use.typekit.net/af/cfc80a/00000000000000007735a661/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("opentype");
+font-display:auto;font-style:italic;font-weight:400;font-stretch:normal;
+}
+
+@font-face {
+font-family:"adobe-kannada";
+src:url("https://use.typekit.net/af/fd917c/00000000000000007735a664/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff2"),url("https://use.typekit.net/af/fd917c/00000000000000007735a664/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff"),url("https://use.typekit.net/af/fd917c/00000000000000007735a664/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("opentype");
+font-display:auto;font-style:italic;font-weight:700;font-stretch:normal;
+}
+
+@font-face {
 font-family:"minion-3";
 src:url("https://use.typekit.net/af/9b541f/000000000000000077359486/30/l?primer=f592e0a4b9356877842506ce344308576437e4f677d7c9b78ca2162e6cad991a&fvd=i4&v=3") format("woff2"),url("https://use.typekit.net/af/9b541f/000000000000000077359486/30/d?primer=f592e0a4b9356877842506ce344308576437e4f677d7c9b78ca2162e6cad991a&fvd=i4&v=3") format("woff"),url("https://use.typekit.net/af/9b541f/000000000000000077359486/30/a?primer=f592e0a4b9356877842506ce344308576437e4f677d7c9b78ca2162e6cad991a&fvd=i4&v=3") format("opentype");
 font-display:auto;font-style:italic;font-weight:400;font-stretch:normal;
@@ -114,29 +138,16 @@ src:url("https://use.typekit.net/af/d7f1e9/00000000000000007735bb2a/30/l?primer=
 font-display:auto;font-style:normal;font-weight:400;font-stretch:normal;
 }
 
-
 @font-face {
-font-family:"adobe-kannada";
-src:url("https://use.typekit.net/af/cf0dba/00000000000000007735a65c/30/l?subset_id=2&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/cf0dba/00000000000000007735a65c/30/d?subset_id=2&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/cf0dba/00000000000000007735a65c/30/a?subset_id=2&fvd=n7&v=3") format("opentype");
+font-family:"kohinoor-kannada";
+src:url("https://use.typekit.net/af/853d72/0000000000000000774f4abd/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/853d72/0000000000000000774f4abd/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/853d72/0000000000000000774f4abd/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
 font-display:auto;font-style:normal;font-weight:700;font-stretch:normal;
 }
 
 @font-face {
-font-family:"adobe-kannada";
-src:url("https://use.typekit.net/af/c0c653/00000000000000007735a65e/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/c0c653/00000000000000007735a65e/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/c0c653/00000000000000007735a65e/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+font-family:"kohinoor-kannada";
+src:url("https://use.typekit.net/af/125c54/0000000000000000774f4ac0/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/125c54/0000000000000000774f4ac0/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/125c54/0000000000000000774f4ac0/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
 font-display:auto;font-style:normal;font-weight:400;font-stretch:normal;
-}
-
-@font-face {
-font-family:"adobe-kannada";
-src:url("https://use.typekit.net/af/cfc80a/00000000000000007735a661/30/l?subset_id=2&fvd=i4&v=3") format("woff2"),url("https://use.typekit.net/af/cfc80a/00000000000000007735a661/30/d?subset_id=2&fvd=i4&v=3") format("woff"),url("https://use.typekit.net/af/cfc80a/00000000000000007735a661/30/a?subset_id=2&fvd=i4&v=3") format("opentype");
-font-display:auto;font-style:italic;font-weight:400;font-stretch:normal;
-}
-
-@font-face {
-font-family:"adobe-kannada";
-src:url("https://use.typekit.net/af/fd917c/00000000000000007735a664/30/l?subset_id=2&fvd=i7&v=3") format("woff2"),url("https://use.typekit.net/af/fd917c/00000000000000007735a664/30/d?subset_id=2&fvd=i7&v=3") format("woff"),url("https://use.typekit.net/af/fd917c/00000000000000007735a664/30/a?subset_id=2&fvd=i7&v=3") format("opentype");
-font-display:auto;font-style:italic;font-weight:700;font-stretch:normal;
 }
 
 /* Tufte CSS styles */
@@ -245,6 +256,10 @@ p.subtitle {
 
 .kan {
     font-family: adobe-kannada;
+}
+
+.marginnote.kan {
+    font-family: kohinoor-kannada;
 }
 
 .numeral {
