@@ -196,13 +196,15 @@ body {
     color: var(--griis-4);
 }
 
+img.invert { }
+
 /* Adds dark mode */
 @media (prefers-color-scheme: dark) {
     body {
         background-color: black;
         color: white;
     }
-    .invert {
+    img.invert {
     	filter: invert(100%); 
     }
 }
