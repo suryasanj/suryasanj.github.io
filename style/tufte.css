@@ -255,11 +255,11 @@ p.subtitle {
 }
 
 .kan {
-    font-family: adobe-kannada;
+    font-family: adobe-kannada, serif;
 }
 
-.marginnote.kan {
-    font-family: kohinoor-kannada;
+p.kan > span.marginnote {
+    font-family: kohinoor-kannada, sans-serif;
 }
 
 .numeral {
