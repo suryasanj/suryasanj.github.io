@@ -819,9 +819,8 @@ p.subtitle {
 
 p.firstp:first-letter {
     float: left;
-    font-size: 30px;
+    font-size: 45px;
     line-height: 1;
-    font-weight: bold;
 }
 
 
