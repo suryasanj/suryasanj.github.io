@@ -676,9 +676,36 @@ src:url("https://use.typekit.net/af/441e49/00000000000000007756240b/31/l?primer=
 font-display:auto;font-style:normal;font-weight:400;font-stretch:normal;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Tufte CSS styles */
 html {
-    font-size: 12px; /* font-size: 15px; */
+    font-size: 10px; /* font-size: 15px; */
 }
 
 :root {
