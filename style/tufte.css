@@ -763,8 +763,8 @@ img.invert { }
 }
 
 h1 {
-    font-family: neue-haas-unica, serif;
-    font-weight: 400;
+    font-family: roboto, sans-serif;
+    font-weight: 200;
     margin-top: 4rem;
     margin-bottom: 1.5rem;
     font-size: 3.2rem;
@@ -774,6 +774,7 @@ h1 {
 
 h2 {
     /* font-style: italic; */
+    font-family: minion-3-display, serif;
     font-weight: 600;
     margin-top: 2.1rem;
     margin-bottom: 1.4rem;
@@ -782,6 +783,7 @@ h2 {
 }
 
 h3 {
+    font-family: minion-3-subhead, serif;
     text-align: center;
     width: 55%;
     font-variant: small-caps;
