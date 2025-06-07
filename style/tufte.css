@@ -843,10 +843,6 @@ p.firstp:first-letter {
     color: var(--gray-light);
 }
 
-.kr-tam {
-    font-family: karla-tamil;
-}
-
 /*.kan {
     font-family: adobe-kannada, serif;
 }
@@ -866,6 +862,10 @@ p.kan > span.marginnote {
 
 .breadcrumb {
     font-variant: small-caps;
+}
+
+.kr-tam {
+    font-family: karla-tamil, sans-serif;
 }
 
 article {
