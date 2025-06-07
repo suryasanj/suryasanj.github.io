@@ -738,6 +738,7 @@ body {
     text-transform: lowercase;
     font-size: 1.0rem;
     color: var(--gray-light);
+    font-feature-settings: 'onum';
 }
 
 img.invert { }
