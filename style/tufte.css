@@ -755,7 +755,10 @@ img.icon { }
     img.icon {
 	filter: invert(80%);
     }
-    .date, .firstwords {
+    .date {
+	color: var(--gray-dark);
+    }
+    .firstwords {
 	color: var(--gray-dark);
     }
     p.firstp:first-letter {
