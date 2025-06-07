@@ -819,7 +819,7 @@ p.subtitle {
 
 p.firstp:first-letter {
     float: left;
-    font-size: 45px;
+    font-size: 3.5rem;
     line-height: 1;
 }
 
