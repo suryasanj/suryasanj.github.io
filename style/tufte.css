@@ -819,6 +819,7 @@ p.firstp:first-letter {
     font-size: 3.5rem;
     line-height: 1;
     margin-right: 5px;
+    color: var(--red);
 }
 
 svg {
@@ -965,7 +966,7 @@ figure.fullwidth figcaption {
 
 /* Links: replicate underline that clears descenders */
 a {
-    color: var(--sky-blue); 
+    color: var(--teal); 
     text-decoration: none;
 }
 
