@@ -845,7 +845,7 @@ dl,
 ol,
 ul { /* initially, 1.4rem and 2rem */
     font-size: 1.4rem;
-    line-height: 2rem;
+    line-height: 1.25rem;
 }
 
 ol,
