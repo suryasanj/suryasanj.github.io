@@ -806,7 +806,8 @@ hr {
 }
 
 p.subtitle {
-    font-style: italic;
+    font-family: roboto, sans-serif;
+    font-weight: 200;
     margin-top: 1rem;
     margin-bottom: 1rem;
     font-size: 1.8rem;
