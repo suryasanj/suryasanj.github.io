@@ -706,6 +706,7 @@ font-display:auto;font-style:normal;font-weight:400;font-stretch:normal;
 /* Tufte CSS styles */
 html {
     font-size: 11px; /* font-size: 12px; */
+    font-variant-numeric: oldstyle-nums;
 }
 
 :root {
