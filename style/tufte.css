@@ -966,7 +966,7 @@ figure.fullwidth figcaption {
 
 /* Links: replicate underline that clears descenders */
 a {
-    color: var(--teal); 
+    color: var(--sky-blue); 
     text-decoration: none;
 }
 
