@@ -826,8 +826,9 @@ p.firstp:first-letter {
     color: var(--red);
 }
 
-svg {
-    fill: currentColor;
+.firstwords {
+    font-variant: small-caps;
+    color: var(--ash);
 }
 
 /*.kan {
