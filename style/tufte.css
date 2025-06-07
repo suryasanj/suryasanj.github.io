@@ -817,6 +817,13 @@ p.subtitle {
     text-transform: lowercase;
 }
 
+p.firstp:first-letter {
+    float: left;
+    font-size: 30px;
+    line-height: 1;
+    font-weight: bold;
+}
+
 
 /*.kan {
     font-family: adobe-kannada, serif;
