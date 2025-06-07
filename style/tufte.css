@@ -705,30 +705,27 @@ font-display:auto;font-style:normal;font-weight:400;font-stretch:normal;
 
 /* Tufte CSS styles */
 html {
+    color: var(--black);
     font-size: 11px; /* font-size: 12px; */
     font-variant-numeric: oldstyle-nums;
 }
 
 :root {
-    --lintblauw: #154273;
-    --paars: #42145f;
-    --violet: #a90061;
-    --robijnrood: #ca005d;
-    --roze: #f092cd;
-    --rood: #d52b1e;
-    --oranje: #e17000;
-    --donkergeel: #ffb612;
-    --geel: #f9e11e;
-    --donkerbruin: #673327;
-    --bruin: #94710a;
-    --donkergroen: #275937;
-    --groen: #39870c;
-    --mosgroen: #777b00;
-    --mintgroen: #76d2b6;
-    --donkerblauw: #01689b;
-    --hemelblauw: #007bc7;
-    --lichtblauw: #8fcae7;
-    --griis-4: #b4b4b4;
+    --maize: #FFCB05;
+    --blue: #00274C;
+    --red: #9A3324;
+    --orange: #D86018;
+    --gray-green: #75988d;
+    --yellow-green: #A5A508;
+    --teal: #00B2A9;
+    --sky-blue: #2F65A7;
+    --magenta: #702082;
+    --violet: #575294;
+    --tan: #CFC096;
+    --beige: #9B9A6D;
+    --ash: #989C97;
+    --stone: #655A52;
+    --black: #131516;
 }
 
 
@@ -747,7 +744,7 @@ body {
     font-variant: small-caps;
     text-transform: lowercase;
     font-size: 1.0rem;
-    color: var(--griis-4);
+    color: var(--ash);
 }
 
 img.invert { }
@@ -755,7 +752,7 @@ img.invert { }
 /* Adds dark mode */
 @media (prefers-color-scheme: dark) {
     body {
-        background-color: black;
+        background-color: var(--black);
         color: white;
     }
     img.invert {
@@ -839,7 +836,7 @@ p.kan > span.marginnote {
 }
 
 .danger {
-    color: var(--rood);
+    color: var(--red);
 }
 
 .breadcrumb {
@@ -965,7 +962,7 @@ figure.fullwidth figcaption {
 
 /* Links: replicate underline that clears descenders */
 a {
-    color: var(--donkerblauw); 
+    color: var(--sky-blue); 
     text-decoration: none;
 }
 
