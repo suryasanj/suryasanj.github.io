@@ -847,6 +847,10 @@ p.kan > span.marginnote {
     font-variant: small-caps;
 }
 
+.icon {
+    color: var(--black);
+}
+
 article {
     padding: 5rem 0rem;
 }
@@ -1228,4 +1232,9 @@ label.margin-toggle:not(.sidenote-number) {
     img {
         width: 100%;
     }
+
+    .icon {
+	filter: invert(1);
+    }
+
 }
