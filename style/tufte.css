@@ -742,7 +742,7 @@ body {
 }
 
 .date {
-    font-family: neue-haas-unica;
+    font-family: roboto-condensed;
     font-variant: small-caps;
     text-transform: lowercase;
     font-size: 1.0rem;
@@ -856,7 +856,7 @@ ul { /* initially, 1.4rem and 2rem */
 ol,
 ul {
     font-size: 1.3rem;
-    font-family: neue-haas-unica, sans-serif;
+    font-family: roboto-condensed, sans-serif;
 }
 
 p {
@@ -1008,7 +1008,7 @@ img {
 
 .sidenote,
 .marginnote {
-    font-family: neue-haas-unica, sans-serif;
+    font-family: minion-3-caption, serif;
     float: right;
     clear: right;
     margin-right: -60%;
@@ -1027,7 +1027,7 @@ img {
 
 .sidenote-number:after,
 .sidenote:before {
-    font-family: neue-haas-unica;
+    font-family: minion-3-caption, serif;
     position: relative;
     vertical-align: baseline;
 }
@@ -1059,11 +1059,11 @@ table.fullwidth {
 
 div.table-wrapper {
     overflow-x: auto;
-    font-family: neue-haas-unica; /* "Trebuchet MS", "Gill Sans", "Gill Sans MT", sans-serif; */
+    font-family: roboto-condensed; /* "Trebuchet MS", "Gill Sans", "Gill Sans MT", sans-serif; */
 }
 
 .sans {
-    font-family: neue-haas-unica; /* "Trebuchet MS", "Gill Sans", "Gill Sans MT", sans-serif; */
+    font-family: roboto-condensed; /* "Trebuchet MS", "Gill Sans", "Gill Sans MT", sans-serif; */
     letter-spacing: .03em;
 }
 
