@@ -811,6 +811,10 @@ p.firstp:first-letter {
     color: var(--gray-light);
 }
 
+.tam {
+    font-family: adobe-tamil, serif;
+}
+
 /*.kan {
     font-family: adobe-kannada, serif;
 }
