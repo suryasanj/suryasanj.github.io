@@ -728,7 +728,7 @@ body {
     margin-right: auto;
     padding-left: 12.5%;
     font-family: minion-3, serif;
-    max-width: 1400px;
+    max-width: 1000px;
     counter-reset: sidenote-counter;
 }
 
