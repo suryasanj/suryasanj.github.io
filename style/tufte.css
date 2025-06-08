@@ -929,6 +929,10 @@ blockquote {
     font-family: roboto, sans-serif;
 }
 
+blockquote .tam {
+    font-family: kohinoor-tamil, sans-serif;
+}
+
 blockquote p {
     width: 55%;
     margin-right: 40px;
