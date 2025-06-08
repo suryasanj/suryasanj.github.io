@@ -447,6 +447,14 @@ img {
     position: relative;
 }
 
+.kan {
+    font-family: adobe-kannada, serif;
+}
+
+.sidenote .kan {
+    font-family: tiro-kannada, serif;
+}
+
 .sidenote-number {
     counter-increment: sidenote-counter;
 }

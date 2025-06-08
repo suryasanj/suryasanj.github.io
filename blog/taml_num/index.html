@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8"/>
-    <title>Revive Tamil Numerals</title>
+    <title>A Case to Revive Tamil Numerals</title>
     <link rel="stylesheet" href="https://suryasanj.github.io/style/tufte.css"/>
     <script>
       MathJax = {
@@ -21,7 +21,7 @@
   <body>
     <article>
       
-      <h1 id="tufte-css">Revive Tamil Numerals</h1>
+      <h1 id="tufte-css">A Case to Revive Tamil Numerals</h1>
       <p class="subtitle">The Personal Website of Surya Sanjay</p>
 
       <section>
@@ -33,7 +33,7 @@
 	and 1990s and hybridize facets from those decades with current trends.
 	One of my favorite movies, <i>Midnight in Paris</i> (2011), roots its entire plot
 	in this concept, showcasing nostalgia both in the 2010s and the roaring twenties.
-	I, for one, listen to <i>Aṉṟoru Nāḷ</i>—a Tamil song
+	I, for one, listen to <a href="https://www.youtube.com/watch?v=P5_YnnydeFM"><i>Aṉṟoru Nāḷ</i></a>—a Tamil song
 	from the late 1960s—on rainy nights with the same admiration as my parents
 	when they played it for me as a child.
 	I see this everywhere, from music to movies to design.
@@ -62,7 +62,14 @@
 	<p>
 	So, when I found that the time on Apple devices could be configured to appear
 	in different scripts, I got very excited.
-	Kannada being my favorite language, I naturally chose that for my watchface.<!-- TODO: nuḍigellaṁ sallada kannaḍa</i> KRM 33 --><!-- germany story -->
+	Kannada being my favorite language,<!--
+	--><label for="fav-lang" class="margin-toggle sidenote-number"></label>
+	<input type="checkbox" id="fav-lang" class="margin-toggle" />
+	<span class="sidenote">
+		As was stated in the 33ʳᵈ verse of the <i>Kavirāǰamārgam̮</i>,
+		<span class="kan"></span>
+	</span>
+	I naturally chose that for my watchface.<!-- TODO: nuḍigellaṁ sallada kannaḍa</i> KRM 33 --><!-- germany story -->
 	</p>
 
 	<p>
@@ -105,18 +112,18 @@
 	[It is the] year 1775 of the Šālivāhana era<br/>
 	and 4884 for the Kaliyuga era.<br/>
 	[The date] is the 30th of the Āvaṇi month<br/>
-	in the Šōbhakr̩ta year that corresponds with this.<br/>
+	in the Šōbʰakr̩ta year that corresponds with this.<br/>
 	The flagstaff and flooring of<br/>
 	the Lord Mācilāmaṇi’s shrine<br/>
 	[installed] on [this] prosperous day, a Friday<br/>
-	of the Uttarabhādra star,<br/>
-	[represents] the perpetual devotion and gift<br/>
-	bestowed by Apaduddhāraṇa Čeṭṭiyār,<br/>
+	of the Uttarabʰādra star,<br/>
+	[represent] the perpetual devotion and gift<br/>
+	bestowed by Apaduddʰāraṇa Čeṭṭiyār,<br/>
 	son of the army commander Subrahmaṇya Čeṭṭiyār.<br/>
 	[Let there be] prosperity and auspiciousness.<br/>
 	</blockquote>
 
-	<p>
+	<p id="lengths-of-time">
 	While deciphering this, I rediscovered not only the numerals but more symbols that I’d forgotten about.
 	There were symbols to abbreviate lengths of time, including <span class="tam">௵</span> for “year,”
 	<span class="tam">௴</span> for “month,” and
@@ -169,7 +176,7 @@
 
 	<h2>Usage</h2>
 
-	<p>
+	<p id="links">
 	There are too many symbols to cover, which you can find in range <code>0BE6</code>–<code>0BFA</code>
 	<a href="https://www.unicode.org/charts/PDF/U0B80.pdf">here</a>,
 	and <a href="https://www.unicode.org/charts/PDF/U11FC0.pdf">here</a>.
@@ -203,17 +210,50 @@
 	the numerals for multiples are prefixed to base numerals (e.&VeryThinSpace;g., <span class="tam">௨௰</span>).
 	</p>
 
+	<p>
+	For numbers with five digits or greater and decimals, the individual digits could be used.
+	There is also an elaborate <a href="links">system</a> for fractions.
+	</p>
+
+	<h3>Lengths of Time</h3>
+
+	<p>As shown <a href="#lengths-of-time">above</a>, lengths of time immediately follow their quantifier or their name.</p>
+
+	<p>Other lengths of time could be analogically abbreviated using the base character of the first letter of the corresponding
+	word. For example, “36s” could be indicated by <span class="tam">௩௰௬ந</span>, where <span class="tam">ந</span> stands for <span class="tam">நொடி</span> “second.”</p>
+
+	<h3>Punctuation</h3>
+
+	<p>
+	Finally, the symbol <span class="tam">𑿿</span> can be used to mark the beginning and end of a text.
+	However, <i>prima facie</i>, it is unclear how to apply this to modern text.
+	For some inspiration, I provide the example of <i>The Economist</i>, each of whose articles end with the symbol <span style="color: red">■</span>.
+	Additionally, it’s not uncommon in older print books to see ornaments in the margins marking the first paragraph of a book, chapter, or section.
+	I use this symbol in both contexts. 
+	</p>
+
       </section>
 
       <section>
 
         <h2>Final Thoughts</h2>
 
-        <p>The purpose of this post was to justify and describe the thinking
-        process behind optimizing one’s synthése. Hopefully, you gained
-        something out of reading this (long) article. If you have any questions
-        or comments on this post, feel free to reach out to me via email
-        (<a href="https://suryasanj.github.io#email">here</a>).</p>
+	<p>
+	It’s as simple as that!
+	</p>
+
+	<p>
+	It’s easy for me to say that this is simple.
+	I’m nostalgic about older usage of language; after all, I’m a historical linguist.
+	But whereas movies and music are genre-specific and not always relatable, language is universal.
+	</p>
+
+	<p>
+	I urge you to maintain that linguistic connection to the past.
+	By all means, use slang and modern usage as much as you wish—language evolves over time.
+	However, just like how 80s synths are mashed up with 2020s beats in many songs today,
+	try to utilize both the linguistic practices of those around us <i>and</i> those before us. 
+	</p>
 
       </section>
        
@@ -223,7 +263,7 @@
       <p class="breadcrumb">
       <a href="https://suryasanj.github.io">home</a> &rsaquo;
       <a href="https://suryasanj.github.io/blog/">blog</a> &rsaquo;
-      creating a standardized workflow
+      a case to revive tamil numerals
       </p>
 
       <hr/>
