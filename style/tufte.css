@@ -279,6 +279,10 @@ blockquote .tam {
     font-family: karla-tamil, sans-serif;
 }
 
+li .tam {
+    font-family: karla-tamil, sans-serif;
+}
+
 blockquote p {
     width: 55%;
     margin-right: 40px;
