@@ -230,7 +230,12 @@ ul { /* initially, 1.4rem and 2rem */
 
 ol,
 ul {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
+    font-family: roboto-condensed, sans-serif;
+}
+
+li {
+    font-size: 1.2rem;
     font-family: roboto-condensed, sans-serif;
 }
 
