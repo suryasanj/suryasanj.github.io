@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
 /* Import fonts */
+@import url("https://use.typekit.net/mhm1fyn.css");
 @font-face {
     font-family: "";
     src: url("../fonts/Tirugane-BoldItalic.ttf");
@@ -65,7 +66,6 @@
     font-display: swap;
 }
 
-@import url("https://use.typekit.net/mhm1fyn.css");
 
 /* Access at https://use.typekit.net/mhm1fyn.css */
 /*
