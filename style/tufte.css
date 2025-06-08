@@ -231,7 +231,7 @@ ul { /* initially, 1.4rem and 2rem */
 ol,
 ul {
     font-size: 1.3rem;
-    font-family: roboto, sans-serif;
+    font-family: roboto-condensed, sans-serif;
 }
 
 p {
@@ -272,7 +272,7 @@ div.epigraph > blockquote > footer > cite {
 
 blockquote {
     font-size: 1.2rem;
-    font-family: roboto, sans-serif;
+    font-family: roboto-condensed, sans-serif;
 }
 
 blockquote .tam {
