@@ -924,6 +924,10 @@ div.epigraph > blockquote > footer > cite {
 }
 /* end chapter epigraphs styles */
 
+.tam {
+    font-family: adobe-tamil, serif;
+}
+
 blockquote {
     font-size: 1.2rem;
     font-family: roboto, sans-serif;
