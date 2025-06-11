@@ -177,13 +177,15 @@ p.firstp:first-letter {
 
 th {
 	font-weight: bold;
-	text-align: -internal-th-center;
+	text-align: center;
 	font-size: 1.2rem;
+	font-family: roboto-condensed, sans-serif;
 }
 
 td {
-	text-align: -internal-th-center;
+	text-align: center;
 	font-size: 1.2rem;
+	font-family: roboto-condensed, sans-serif;
 }
 
 tr:first-child {
