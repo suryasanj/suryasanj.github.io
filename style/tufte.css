@@ -175,6 +175,17 @@ p.firstp:first-letter {
     color: var(--gray-light);
 }
 
+th {
+	font-weight: bold;
+	text-align: -internal-th-center;
+	font-size: 1.2rem;
+}
+
+td {
+	text-align: -internal-th-center;
+	font-size: 1.2rem;
+}
+
 
 
 
