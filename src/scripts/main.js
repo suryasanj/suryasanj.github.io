@@ -23,7 +23,7 @@ function initAsideLogic() {
         parent.classList.add('border-2','border-blue-200/25','rounded-xl','bg-slate-200/25');
         if (sidebar.classList.contains('w-32')) {
           sidebar.classList.remove('w-32');
-          sidebar.classList.add('w-[13.5rem]'); // Tailwind: arbitrary value; replace w-54
+          sidebar.classList.add('w-54'); // Tailwind: arbitrary value; replace w-54
           sidebarText.forEach(t => t.classList.remove('hidden'));
           sidebarToggle.innerHTML = expandedSVG;
         }
@@ -38,7 +38,7 @@ function initAsideLogic() {
   sidebarToggle.addEventListener('click', () => {
     collapsed = !collapsed;
     if (collapsed) {
-      sidebar.classList.remove('w-[13.5rem]'); sidebar.classList.add('w-32');
+      sidebar.classList.remove('w-54'); sidebar.classList.add('w-32');
       sidebarText.forEach(t => t.classList.add('hidden'));
       sidebarToggle.innerHTML = collapsedSVG;
       dropdownToggle.forEach(el => {
@@ -51,7 +51,7 @@ function initAsideLogic() {
         }
       });
     } else {
-      sidebar.classList.remove('w-32'); sidebar.classList.add('w-[13.5rem]');
+      sidebar.classList.remove('w-32'); sidebar.classList.add('w-54');
       sidebarText.forEach(t => t.classList.remove('hidden'));
       sidebarToggle.innerHTML = expandedSVG;
     }
