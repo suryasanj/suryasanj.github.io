@@ -97,6 +97,20 @@
 		</div>
 
 		<script>
+			fetch('./src/snippets/aside.html')
+				.then(response => {
+					if (!response.ok) throw new Error(`HTTP error! Status: ${response.status}`);
+					return response.text();
+				})
+				.then(html => {
+					document.getElementById('aside-placeholder').innerHTML = html;
+				})
+				.catch(err => {
+					console.error('Error loading aside snippet:', err);
+				});
+		</script>
+
+		<script>
 			const sidebar = document.getElementById('sidebar');
 			const sidebarToggle = document.getElementById('sidebar-toggle')
 			const sidebarText = document.querySelectorAll('.sidebar-text')
@@ -178,20 +192,6 @@
 				var h2 = h2s[i];
 				toc.innerHTML += `<li class="truncate"><a href="#${h2.id}">${h2.textContent}</a></li>`;
 			}
-		</script>
-
-		<script>
-			fetch('./src/snippets/aside.html')
-				.then(response => {
-					if (!response.ok) throw new Error(`HTTP error! Status: ${response.status}`);
-					return response.text();
-				})
-				.then(html => {
-					document.getElementById('aside-placeholder').innerHTML = html;
-				})
-				.catch(err => {
-					console.error('Error loading aside snippet:', err);
-				});
 		</script>
 
 
