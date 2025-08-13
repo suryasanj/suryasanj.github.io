@@ -10,7 +10,7 @@
 
 	<body class="text-slate-200 bg-black">
 		<div class="min-h-screen relative">
-			{% include ./src/snippets/aside.html %}
+			<div id="aside-placeholder"></div>
 			<main class="mx-32 p-4 mb-200">
 				<h1 class="font-display">
 					Surya Sanjay
@@ -179,6 +179,21 @@
 				toc.innerHTML += `<li class="truncate"><a href="#${h2.id}">${h2.textContent}</a></li>`;
 			}
 		</script>
+
+		<script>
+			fetch('./src/snippets/aside.html')
+				.then(response => {
+					if (!response.ok) throw new Error(`HTTP error! Status: ${response.status}`);
+					return response.text();
+				})
+				.then(html => {
+					document.getElementById('aside-placeholder').innerHTML = html;
+				})
+				.catch(err => {
+					console.error('Error loading aside snippet:', err);
+				});
+		</script>
+
 
 	</body>
 
