@@ -1,0 +1,70 @@
+@import url("https://use.typekit.net/mhm1fyn.css");
+@import "tailwindcss" source("../../");
+@theme {
+	--font-serif: arno-pro, system-ui, serif;
+	--font-sans: inter-tight-variable, system-ui, sans-serif;
+	--font-display: p22-mackinac-pro, system-ui, serif;
+}
+
+
+/* Page Formatting */
+body { 
+	@apply font-serif;
+}
+
+/* Heading Styles */
+h1 {
+  @apply font-display;
+  @apply text-4xl;
+  @apply my-3;
+	@apply font-light;
+	@apply uppercase;
+	@apply tracking-[2.5px];
+}
+
+h2 {
+	@apply text-3xl;
+}
+
+h3 {
+  @apply text-2xl;
+  @apply italic;
+}
+
+h4 {
+	@apply text-xl;
+	font-variant: small-caps;
+	@apply lowercase;
+	@apply tracking-[1px];
+}
+
+p {
+  @apply my-3;
+	@apply text-lg/5;
+}
+
+hr {
+  @apply my-5;
+}
+
+a {
+	@apply text-slate-400;
+}
+
+ol, ul {
+	@apply text-sm;
+}
+
+a:hover {
+  @apply underline;
+}
+
+/* Classes */
+
+.dropdown {
+	@apply my-1;
+}
+
+.dropdown-title {
+	@apply font-semibold;
+}
