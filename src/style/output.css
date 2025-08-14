@@ -428,9 +428,19 @@
       margin-right: 50%;
     }
   }
+  .xl\:mr-\[25\%\] {
+    @media (width >= 80rem) {
+      margin-right: 25%;
+    }
+  }
   .xl\:mr-\[50\%\] {
     @media (width >= 80rem) {
       margin-right: 50%;
+    }
+  }
+  .\32 xl\:mr-\[25\%\] {
+    @media (width >= 96rem) {
+      margin-right: 25%;
     }
   }
   .\32 xl\:mr-\[50\%\] {
