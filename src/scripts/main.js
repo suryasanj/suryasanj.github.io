@@ -59,6 +59,7 @@ function initAsideLogic() {
 
   // ToC
   const h2s = document.getElementsByTagName('h2');
+	console.log(h2s)
   const toc = document.getElementById('toc');
   for (let i = 0; i < h2s.length; i++) {
     const h2 = h2s[i];

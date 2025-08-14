@@ -53,6 +53,7 @@ a {
 
 ol, ul {
 	@apply text-sm;
+	@apply ml-4;
 }
 
 a:hover {
