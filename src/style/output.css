@@ -190,23 +190,17 @@
   .relative {
     position: relative;
   }
-  .mx-32 {
-    margin-inline: calc(var(--spacing) * 32);
-  }
   .my-2 {
     margin-block: calc(var(--spacing) * 2);
   }
   .my-4 {
     margin-block: calc(var(--spacing) * 4);
   }
-  .mr-0 {
-    margin-right: calc(var(--spacing) * 0);
+  .mr-32 {
+    margin-right: calc(var(--spacing) * 32);
   }
   .mr-auto {
     margin-right: auto;
-  }
-  .mb-200 {
-    margin-bottom: calc(var(--spacing) * 200);
   }
   .ml-32 {
     margin-left: calc(var(--spacing) * 32);
@@ -219,9 +213,6 @@
   }
   .hidden {
     display: none;
-  }
-  .table {
-    display: table;
   }
   .size-4 {
     width: calc(var(--spacing) * 4);
@@ -248,9 +239,6 @@
   }
   .grow {
     flex-grow: 1;
-  }
-  .border-collapse {
-    border-collapse: collapse;
   }
   .rotate-270 {
     rotate: 270deg;
@@ -294,10 +282,6 @@
   }
   .rounded-xl {
     border-radius: var(--radius-xl);
-  }
-  .border {
-    border-style: var(--tw-border-style);
-    border-width: 1px;
   }
   .border-2 {
     border-style: var(--tw-border-style);
@@ -344,6 +328,9 @@
   .p-4 {
     padding: calc(var(--spacing) * 4);
   }
+  .p-5 {
+    padding: calc(var(--spacing) * 5);
+  }
   .font-display {
     font-family: var(--font-display);
   }
@@ -381,15 +368,8 @@
       color: color-mix(in oklab, var(--color-slate-200) 40%, transparent);
     }
   }
-  .underline {
-    text-decoration-line: underline;
-  }
   .opacity-75 {
     opacity: 75%;
-  }
-  .outline {
-    outline-style: var(--tw-outline-style);
-    outline-width: 1px;
   }
   .drop-shadow-lg\/50 {
     --tw-drop-shadow-alpha: 50%;
@@ -433,14 +413,14 @@
       }
     }
   }
-  .sm\:mr-\[25\%\] {
-    @media (width >= 40rem) {
+  .md\:mr-\[25\%\] {
+    @media (width >= 48rem) {
       margin-right: 25%;
     }
   }
-  .md\:mr-\[50\%\] {
-    @media (width >= 48rem) {
-      margin-right: 50%;
+  .lg\:mr-\[25\%\] {
+    @media (width >= 64rem) {
+      margin-right: 25%;
     }
   }
   .lg\:mr-\[50\%\] {
@@ -533,11 +513,6 @@ a:hover {
 @property --tw-tracking {
   syntax: "*";
   inherits: false;
-}
-@property --tw-outline-style {
-  syntax: "*";
-  inherits: false;
-  initial-value: solid;
 }
 @property --tw-blur {
   syntax: "*";
@@ -648,7 +623,6 @@ a:hover {
       --tw-border-style: solid;
       --tw-font-weight: initial;
       --tw-tracking: initial;
-      --tw-outline-style: solid;
       --tw-blur: initial;
       --tw-brightness: initial;
       --tw-contrast: initial;
