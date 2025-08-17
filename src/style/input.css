@@ -36,6 +36,7 @@ h4 {
 	font-variant: small-caps;
 	@apply lowercase;
 	@apply tracking-[1px];
+	@apply text-center;
 }
 
 p {
