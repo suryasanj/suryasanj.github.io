@@ -234,6 +234,12 @@
   .w-full {
     width: 100%;
   }
+  .max-w-\[100px\] {
+    max-width: 100px;
+  }
+  .max-w-\[1000px\] {
+    max-width: 1000px;
+  }
   .grow {
     flex-grow: 1;
   }
@@ -359,6 +365,9 @@
       color: color-mix(in oklab, var(--color-slate-200) 40%, transparent);
     }
   }
+  .not-italic {
+    font-style: normal;
+  }
   .opacity-75 {
     opacity: 75%;
   }
@@ -418,31 +427,31 @@ h1 {
   text-transform: uppercase;
   --tw-tracking: 2.5px;
   letter-spacing: 2.5px;
-  margin-bottom: calc(var(--spacing) * 1.5);
+  margin-bottom: calc(var(--spacing) * 3);
 }
 h2 {
   font-size: var(--text-3xl);
-  line-height: calc(var(--spacing) * 10);
-  margin-top: calc(var(--spacing) * 1.5);
-  margin-bottom: calc(var(--spacing) * 1.5);
+  line-height: calc(var(--spacing) * 8);
+  margin-top: calc(var(--spacing) * 3);
+  margin-bottom: calc(var(--spacing) * 3);
 }
 h3 {
   font-size: var(--text-2xl);
-  line-height: calc(var(--spacing) * 9);
+  line-height: calc(var(--spacing) * 6);
   font-style: italic;
-  margin-top: calc(var(--spacing) * 1.5);
-  margin-bottom: calc(var(--spacing) * 1.5);
+  margin-top: calc(var(--spacing) * 3);
+  margin-bottom: calc(var(--spacing) * 3);
 }
 h4 {
   font-size: var(--text-xl);
-  line-height: calc(var(--spacing) * 7);
+  line-height: calc(var(--spacing) * 5);
   font-variant: small-caps;
   text-transform: lowercase;
   --tw-tracking: 1px;
   letter-spacing: 1px;
   text-align: center;
-  margin-top: calc(var(--spacing) * 1.5);
-  margin-bottom: calc(var(--spacing) * 1.5);
+  margin-top: calc(var(--spacing) * 3);
+  margin-bottom: calc(var(--spacing) * 3);
 }
 p {
   margin-block: calc(var(--spacing) * 3);

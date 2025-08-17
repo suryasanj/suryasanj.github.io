@@ -20,30 +20,30 @@ h1 {
 	@apply font-light;
 	@apply uppercase;
 	@apply tracking-[2.5px];
-	@apply mb-1.5;
+	@apply mb-3;
 }
 
 h2 {
-	@apply text-3xl/10;
-	@apply mt-1.5;
-	@apply mb-1.5;
+	@apply text-3xl/8;
+	@apply mt-3;
+	@apply mb-3;
 }
 
 h3 {
-  @apply text-2xl/9;
+  @apply text-2xl/6;
   @apply italic;
-	@apply mt-1.5;
-	@apply mb-1.5;
+	@apply mt-3;
+	@apply mb-3;
 }
 
 h4 {
-	@apply text-xl/7;
+	@apply text-xl/5;
 	font-variant: small-caps;
 	@apply lowercase;
 	@apply tracking-[1px];
 	@apply text-center;
-	@apply mt-1.5;
-	@apply mb-1.5;
+	@apply mt-3;
+	@apply mb-3;
 }
 
 p {
