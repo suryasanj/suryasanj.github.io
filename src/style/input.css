@@ -20,15 +20,20 @@ h1 {
 	@apply font-light;
 	@apply uppercase;
 	@apply tracking-[2.5px];
+	@apply mb-1.5;
 }
 
 h2 {
 	@apply text-3xl/5;
+	@apply mt-1.5;
+	@apply mb-1.5;
 }
 
 h3 {
   @apply text-2xl/5;
   @apply italic;
+	@apply mt-1.5;
+	@apply mb-1.5;
 }
 
 h4 {
@@ -37,6 +42,8 @@ h4 {
 	@apply lowercase;
 	@apply tracking-[1px];
 	@apply text-center;
+	@apply mt-1.5;
+	@apply mb-1.5;
 }
 
 p {
