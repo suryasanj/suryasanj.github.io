@@ -24,20 +24,20 @@ h1 {
 }
 
 h2 {
-	@apply text-3xl/2;
+	@apply text-3xl/10;
 	@apply mt-1.5;
 	@apply mb-1.5;
 }
 
 h3 {
-  @apply text-2xl/3;
+  @apply text-2xl/9;
   @apply italic;
 	@apply mt-1.5;
 	@apply mb-1.5;
 }
 
 h4 {
-	@apply text-xl/5;
+	@apply text-xl/7;
 	font-variant: small-caps;
 	@apply lowercase;
 	@apply tracking-[1px];
