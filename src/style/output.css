@@ -31,8 +31,6 @@
     --font-weight-bold: 700;
     --tracking-widest: 0.1em;
     --radius-xl: 0.75rem;
-    --drop-shadow-lg: 0 4px 4px rgb(0 0 0 / 0.15);
-    --drop-shadow-xl: 0 9px 7px rgb(0 0 0 / 0.1);
     --default-transition-duration: 150ms;
     --default-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     --default-font-family: var(--font-sans);
@@ -245,9 +243,6 @@
   .rotate-270 {
     rotate: 270deg;
   }
-  .list-outside {
-    list-style-position: outside;
-  }
   .list-disc {
     list-style-type: disc;
   }
@@ -419,7 +414,7 @@ body {
 h1 {
   font-family: var(--font-display);
   font-size: var(--text-4xl);
-  line-height: var(--tw-leading, var(--text-4xl--line-height));
+  line-height: calc(var(--spacing) * 5);
   margin-block: calc(var(--spacing) * 3);
   --tw-font-weight: var(--font-weight-light);
   font-weight: var(--font-weight-light);
@@ -429,16 +424,16 @@ h1 {
 }
 h2 {
   font-size: var(--text-3xl);
-  line-height: var(--tw-leading, var(--text-3xl--line-height));
+  line-height: calc(var(--spacing) * 5);
 }
 h3 {
   font-size: var(--text-2xl);
-  line-height: var(--tw-leading, var(--text-2xl--line-height));
+  line-height: calc(var(--spacing) * 5);
   font-style: italic;
 }
 h4 {
   font-size: var(--text-xl);
-  line-height: var(--tw-leading, var(--text-xl--line-height));
+  line-height: calc(var(--spacing) * 5);
   font-variant: small-caps;
   text-transform: lowercase;
   --tw-tracking: 1px;

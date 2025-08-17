@@ -15,7 +15,7 @@ body {
 /* Heading Styles */
 h1 {
   @apply font-display;
-  @apply text-4xl;
+  @apply text-4xl/5;
   @apply my-3;
 	@apply font-light;
 	@apply uppercase;
@@ -23,16 +23,16 @@ h1 {
 }
 
 h2 {
-	@apply text-3xl;
+	@apply text-3xl/5;
 }
 
 h3 {
-  @apply text-2xl;
+  @apply text-2xl/5;
   @apply italic;
 }
 
 h4 {
-	@apply text-xl;
+	@apply text-xl/5;
 	font-variant: small-caps;
 	@apply lowercase;
 	@apply tracking-[1px];
