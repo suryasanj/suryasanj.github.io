@@ -410,6 +410,8 @@
 }
 body {
   font-family: var(--font-serif);
+  -webkit-hyphens: auto;
+  hyphens: auto;
 }
 h1 {
   font-family: var(--font-display);
@@ -453,11 +455,11 @@ p {
   line-height: calc(var(--spacing) * 5);
 }
 hr {
-  margin-block: calc(var(--spacing) * 5);
   color: color-mix(in srgb, oklch(92.9% 0.013 255.508) 40%, transparent);
   @supports (color: color-mix(in lab, red, red)) {
     color: color-mix(in oklab, var(--color-slate-200) 40%, transparent);
   }
+  margin-block: calc(var(--spacing) * 5);
 }
 a {
   color: var(--color-slate-400);
