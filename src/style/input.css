@@ -53,6 +53,7 @@ p {
 
 hr {
   @apply my-5;
+	@apply text-slate-200/40;
 }
 
 a {

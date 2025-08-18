@@ -234,9 +234,6 @@
   .w-full {
     width: 100%;
   }
-  .max-w-\[100px\] {
-    max-width: 100px;
-  }
   .max-w-\[1000px\] {
     max-width: 1000px;
   }
@@ -365,9 +362,6 @@
       color: color-mix(in oklab, var(--color-slate-200) 40%, transparent);
     }
   }
-  .not-italic {
-    font-style: normal;
-  }
   .opacity-75 {
     opacity: 75%;
   }
@@ -460,6 +454,10 @@ p {
 }
 hr {
   margin-block: calc(var(--spacing) * 5);
+  color: color-mix(in srgb, oklch(92.9% 0.013 255.508) 40%, transparent);
+  @supports (color: color-mix(in lab, red, red)) {
+    color: color-mix(in oklab, var(--color-slate-200) 40%, transparent);
+  }
 }
 a {
   color: var(--color-slate-400);
