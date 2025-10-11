@@ -11,6 +11,8 @@
 body { 
 	@apply font-serif;
 	@apply hyphens-auto;
+	@apply max-w-3xl;
+	@apply mx-auto;
 }
 
 /* Heading Styles */

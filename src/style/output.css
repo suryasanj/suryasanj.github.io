@@ -14,6 +14,8 @@
     --color-slate-400: oklch(70.4% 0.04 256.788);
     --color-black: #000;
     --spacing: 0.25rem;
+    --container-lg: 32rem;
+    --container-3xl: 48rem;
     --text-sm: 0.875rem;
     --text-sm--line-height: calc(1.25 / 0.875);
     --text-lg: 1.125rem;
@@ -412,6 +414,8 @@ body {
   font-family: var(--font-serif);
   -webkit-hyphens: auto;
   hyphens: auto;
+  max-width: var(--container-3xl);
+  margin-inline: auto;
 }
 h1 {
   font-family: var(--font-display);
