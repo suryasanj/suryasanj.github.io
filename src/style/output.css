@@ -4,7 +4,7 @@
 @layer theme, base, components, utilities;
 @layer theme {
   :root, :host {
-    --font-sans: inter-tight-variable, system-ui, sans-serif;
+    --font-sans: gill-sans-nova, system-ui, sans-serif;
     --font-serif: arno-pro, system-ui, serif;
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
@@ -14,7 +14,6 @@
     --color-slate-400: oklch(70.4% 0.04 256.788);
     --color-black: #000;
     --spacing: 0.25rem;
-    --container-lg: 32rem;
     --container-3xl: 48rem;
     --text-sm: 0.875rem;
     --text-sm--line-height: calc(1.25 / 0.875);
@@ -35,6 +34,7 @@
     --default-font-family: var(--font-sans);
     --default-mono-font-family: var(--font-mono);
     --font-display: p22-mackinac-pro, system-ui, serif;
+    --font-tamil-sans: adapter-tamil-text, system-ui, sans-serif;
   }
 }
 @layer base {
@@ -482,6 +482,9 @@ a:hover {
 .dropdown-title {
   --tw-font-weight: var(--font-weight-semibold);
   font-weight: var(--font-weight-semibold);
+}
+.tamil {
+  font-family: var(--font-tamil-sans);
 }
 @property --tw-space-x-reverse {
   syntax: "*";

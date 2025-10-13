@@ -2,8 +2,9 @@
 @import "tailwindcss" source("../../");
 @theme {
 	--font-serif: arno-pro, system-ui, serif;
-	--font-sans: inter-tight-variable, system-ui, sans-serif;
+	--font-sans: gill-sans-nova, system-ui, sans-serif;
 	--font-display: p22-mackinac-pro, system-ui, serif;
+	--font-tamil-sans: adapter-tamil-text, system-ui, sans-serif;
 }
 
 
@@ -80,4 +81,8 @@ a:hover {
 
 .dropdown-title {
 	@apply font-semibold;
+}
+
+.tamil {
+	@apply font-tamil-sans;
 }
