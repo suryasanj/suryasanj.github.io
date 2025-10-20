@@ -2,7 +2,7 @@
 @import "tailwindcss" source("../../");
 @theme {
 	--font-serif: arno-pro, system-ui, serif;
-	--font-sans: neue-haas-grotesk-text, system-ui, sans-serif;
+	--font-sans: ff-scala-sans-pro, system-ui, sans-serif;
 	--font-display: p22-mackinac-pro, system-ui, serif;
 	--font-tamil-sans: adapter-tamil-text, system-ui, sans-serif;
 }
