@@ -4,7 +4,7 @@
 @layer theme, base, components, utilities;
 @layer theme {
   :root, :host {
-    --font-sans: neue-haas-grotesk-text, system-ui, sans-serif;
+    --font-sans: ff-scala-sans-pro, system-ui, sans-serif;
     --font-serif: arno-pro, system-ui, serif;
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
@@ -209,9 +209,6 @@
   .mb-2 {
     margin-bottom: calc(var(--spacing) * 2);
   }
-  .mb-5 {
-    margin-bottom: calc(var(--spacing) * 5);
-  }
   .ml-32 {
     margin-left: calc(var(--spacing) * 32);
   }
@@ -232,17 +229,11 @@
     width: calc(var(--spacing) * 6);
     height: calc(var(--spacing) * 6);
   }
-  .h-18 {
-    height: calc(var(--spacing) * 18);
-  }
   .h-full {
     height: 100%;
   }
   .min-h-screen {
     min-height: 100vh;
-  }
-  .w-15 {
-    width: calc(var(--spacing) * 15);
   }
   .w-18 {
     width: calc(var(--spacing) * 18);
@@ -374,25 +365,9 @@
     font-size: var(--text-sm);
     line-height: var(--tw-leading, var(--text-sm--line-height));
   }
-  .text-sm\/2 {
-    font-size: var(--text-sm);
-    line-height: calc(var(--spacing) * 2);
-  }
-  .text-sm\/3\.5 {
-    font-size: var(--text-sm);
-    line-height: calc(var(--spacing) * 3.5);
-  }
-  .text-sm\/4 {
-    font-size: var(--text-sm);
-    line-height: calc(var(--spacing) * 4);
-  }
   .text-xs {
     font-size: var(--text-xs);
     line-height: var(--tw-leading, var(--text-xs--line-height));
-  }
-  .text-xs\/4 {
-    font-size: var(--text-xs);
-    line-height: calc(var(--spacing) * 4);
   }
   .font-bold {
     --tw-font-weight: var(--font-weight-bold);
