@@ -40,7 +40,7 @@
 	--font-serif: pliego, system-ui, serif;
 	--font-sans: neue-haas-grotesk-text, system-ui, sans-serif;
 	--font-display: p22-mackinac-pro, system-ui, serif;
-	--font-tamil-sans: adapter-tamil-text, system-ui, sans-serif;
+	--font-tamil-serif: tiro-tamil, system-ui, sans-serif;
 	--font-tulu-sans: mallige, sans-serif;
 	--font-brill: brill, serif;
 }
@@ -121,7 +121,7 @@ a:hover {
 }
 
 .tamil {
-	@apply font-tamil-sans;
+	@apply font-tamil-serif;
 }
 
 .tulu {
