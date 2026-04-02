@@ -8,12 +8,41 @@
 	src: url('../fonts/Mallige.ttf') format('truetype');
 }
 
+@font-face {
+	font-family: brill;
+	font-style: italic;
+	font-weight: 700;
+	src: url('../fonts/Brill-BoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: brill;
+	font-style: normal;
+	font-weight: 700;
+	src: url('../fonts/Brill-Bold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: brill;
+	font-style: italic;
+	font-weight: 400;
+	src: url('../fonts/Brill-Italic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: brill;
+	font-style: normal;
+	font-weight: 400;
+	src: url('../fonts/Brill-Roman.ttf') format('truetype');
+}
+
 @theme {
 	--font-serif: pliego, system-ui, serif;
 	--font-sans: neue-haas-grotesk-text, system-ui, sans-serif;
 	--font-display: p22-mackinac-pro, system-ui, serif;
 	--font-tamil-sans: adapter-tamil-text, system-ui, sans-serif;
 	--font-tulu-sans: mallige, sans-serif;
+	--font-brill: brill, serif;
 }
 
 /* Page Formatting */
@@ -97,4 +126,8 @@ a:hover {
 
 .tulu {
 	@apply font-tulu-sans;	
+}
+
+.ling {
+	@apply font-brill;
 }

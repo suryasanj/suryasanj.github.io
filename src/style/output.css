@@ -15,7 +15,6 @@
     --color-slate-200: oklch(92.9% 0.013 255.508);
     --color-slate-600: oklch(44.6% 0.043 257.281);
     --color-slate-700: oklch(37.2% 0.044 257.287);
-    --color-slate-900: oklch(20.8% 0.042 265.755);
     --color-black: #000;
     --color-white: #fff;
     --spacing: 0.25rem;
@@ -44,6 +43,7 @@
     --font-display: p22-mackinac-pro, system-ui, serif;
     --font-tamil-sans: adapter-tamil-text, system-ui, sans-serif;
     --font-tulu-sans: mallige, sans-serif;
+    --font-brill: brill, serif;
   }
 }
 @layer base {
@@ -210,9 +210,6 @@
   .mr-auto {
     margin-right: auto;
   }
-  .mb-2 {
-    margin-bottom: calc(var(--spacing) * 2);
-  }
   .ml-32 {
     margin-left: calc(var(--spacing) * 32);
   }
@@ -238,9 +235,6 @@
   }
   .min-h-screen {
     min-height: 100vh;
-  }
-  .w-18 {
-    width: calc(var(--spacing) * 18);
   }
   .w-32 {
     width: calc(var(--spacing) * 32);
@@ -269,9 +263,6 @@
   .justify-between {
     justify-content: space-between;
   }
-  .gap-2 {
-    gap: calc(var(--spacing) * 2);
-  }
   .space-x-1 {
     :where(& > :not(:last-child)) {
       --tw-space-x-reverse: 0;
@@ -297,15 +288,8 @@
   .rounded-full {
     border-radius: calc(infinity * 1px);
   }
-  .rounded-md {
-    border-radius: var(--radius-md);
-  }
   .rounded-xl {
     border-radius: var(--radius-xl);
-  }
-  .border-1 {
-    border-style: var(--tw-border-style);
-    border-width: 1px;
   }
   .border-2 {
     border-style: var(--tw-border-style);
@@ -330,9 +314,6 @@
     @supports (color: color-mix(in lab, red, red)) {
       border-color: color-mix(in oklab, var(--color-slate-200) 10%, transparent);
     }
-  }
-  .border-slate-600 {
-    border-color: var(--color-slate-600);
   }
   .bg-black {
     background-color: var(--color-black);
@@ -369,10 +350,6 @@
     font-size: var(--text-sm);
     line-height: var(--tw-leading, var(--text-sm--line-height));
   }
-  .text-xs {
-    font-size: var(--text-xs);
-    line-height: var(--tw-leading, var(--text-xs--line-height));
-  }
   .font-bold {
     --tw-font-weight: var(--font-weight-bold);
     font-weight: var(--font-weight-bold);
@@ -383,9 +360,6 @@
   }
   .text-black {
     color: var(--color-black);
-  }
-  .text-blue-300 {
-    color: var(--color-blue-300);
   }
   .text-blue-500 {
     color: var(--color-blue-500);
@@ -401,10 +375,6 @@
   }
   .opacity-75 {
     opacity: 75%;
-  }
-  .shadow {
-    --tw-shadow: 0 1px 3px 0 var(--tw-shadow-color, rgb(0 0 0 / 0.1)), 0 1px 2px -1px var(--tw-shadow-color, rgb(0 0 0 / 0.1));
-    box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
   }
   .drop-shadow-xl\/50 {
     --tw-drop-shadow-alpha: 50%;
@@ -448,6 +418,30 @@
   font-style: normal;
   font-weight: 400;
   src: url('../fonts/Mallige.ttf') format('truetype');
+}
+@font-face {
+  font-family: brill;
+  font-style: italic;
+  font-weight: 700;
+  src: url('../fonts/Brill-BoldItalic.ttf') format('truetype');
+}
+@font-face {
+  font-family: brill;
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/Brill-Bold.ttf') format('truetype');
+}
+@font-face {
+  font-family: brill;
+  font-style: italic;
+  font-weight: 400;
+  src: url('../fonts/Brill-Italic.ttf') format('truetype');
+}
+@font-face {
+  font-family: brill;
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/Brill-Roman.ttf') format('truetype');
 }
 body {
   font-family: var(--font-serif);
@@ -528,6 +522,9 @@ a:hover {
 .tulu {
   font-family: var(--font-tulu-sans);
 }
+.ling {
+  font-family: var(--font-brill);
+}
 @property --tw-space-x-reverse {
   syntax: "*";
   inherits: false;
@@ -545,71 +542,6 @@ a:hover {
 @property --tw-tracking {
   syntax: "*";
   inherits: false;
-}
-@property --tw-shadow {
-  syntax: "*";
-  inherits: false;
-  initial-value: 0 0 #0000;
-}
-@property --tw-shadow-color {
-  syntax: "*";
-  inherits: false;
-}
-@property --tw-shadow-alpha {
-  syntax: "<percentage>";
-  inherits: false;
-  initial-value: 100%;
-}
-@property --tw-inset-shadow {
-  syntax: "*";
-  inherits: false;
-  initial-value: 0 0 #0000;
-}
-@property --tw-inset-shadow-color {
-  syntax: "*";
-  inherits: false;
-}
-@property --tw-inset-shadow-alpha {
-  syntax: "<percentage>";
-  inherits: false;
-  initial-value: 100%;
-}
-@property --tw-ring-color {
-  syntax: "*";
-  inherits: false;
-}
-@property --tw-ring-shadow {
-  syntax: "*";
-  inherits: false;
-  initial-value: 0 0 #0000;
-}
-@property --tw-inset-ring-color {
-  syntax: "*";
-  inherits: false;
-}
-@property --tw-inset-ring-shadow {
-  syntax: "*";
-  inherits: false;
-  initial-value: 0 0 #0000;
-}
-@property --tw-ring-inset {
-  syntax: "*";
-  inherits: false;
-}
-@property --tw-ring-offset-width {
-  syntax: "<length>";
-  inherits: false;
-  initial-value: 0px;
-}
-@property --tw-ring-offset-color {
-  syntax: "*";
-  inherits: false;
-  initial-value: #fff;
-}
-@property --tw-ring-offset-shadow {
-  syntax: "*";
-  inherits: false;
-  initial-value: 0 0 #0000;
 }
 @property --tw-blur {
   syntax: "*";
@@ -720,20 +652,6 @@ a:hover {
       --tw-border-style: solid;
       --tw-font-weight: initial;
       --tw-tracking: initial;
-      --tw-shadow: 0 0 #0000;
-      --tw-shadow-color: initial;
-      --tw-shadow-alpha: 100%;
-      --tw-inset-shadow: 0 0 #0000;
-      --tw-inset-shadow-color: initial;
-      --tw-inset-shadow-alpha: 100%;
-      --tw-ring-color: initial;
-      --tw-ring-shadow: 0 0 #0000;
-      --tw-inset-ring-color: initial;
-      --tw-inset-ring-shadow: 0 0 #0000;
-      --tw-ring-inset: initial;
-      --tw-ring-offset-width: 0px;
-      --tw-ring-offset-color: #fff;
-      --tw-ring-offset-shadow: 0 0 #0000;
       --tw-blur: initial;
       --tw-brightness: initial;
       --tw-contrast: initial;
