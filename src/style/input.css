@@ -69,7 +69,7 @@ hr {
 }
 
 a {
-	@apply text-slate-400;
+	@apply text-cyan-600;
 }
 
 ol, ul {
