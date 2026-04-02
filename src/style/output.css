@@ -517,6 +517,7 @@ a:hover {
   --tw-scale-y: 75%;
   --tw-scale-z: 75%;
   scale: var(--tw-scale-x) var(--tw-scale-y);
+  font-style: italic;
 }
 .tulu {
   font-family: var(--font-tulu-sans);

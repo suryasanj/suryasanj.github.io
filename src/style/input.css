@@ -123,6 +123,7 @@ a:hover {
 .tamil {
 	@apply font-tamil-serif;
 	@apply scale-75;
+	@apply italic;
 }
 
 .tulu {
