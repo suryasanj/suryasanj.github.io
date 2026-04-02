@@ -4,8 +4,8 @@
 @layer theme, base, components, utilities;
 @layer theme {
   :root, :host {
-    --font-sans: ff-scala-sans-pro, system-ui, sans-serif;
-    --font-serif: arno-pro, system-ui, serif;
+    --font-sans: neue-haas-grotesk-text, system-ui, sans-serif;
+    --font-serif: pliego, system-ui, serif;
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
     --color-blue-200: oklch(88.2% 0.059 254.128);
