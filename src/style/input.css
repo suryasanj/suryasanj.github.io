@@ -1,12 +1,20 @@
 @import url("https://use.typekit.net/mhm1fyn.css");
 @import "tailwindcss" source("../../");
+
+@font-face {
+	font-family: mallige;
+	font-style: normal;
+	font-weight: 400;
+	src: url('../fonts/Mallige.ttf') format('truetype');
+}
+
 @theme {
 	--font-serif: arno-pro, system-ui, serif;
 	--font-sans: ff-scala-sans-pro, system-ui, sans-serif;
 	--font-display: p22-mackinac-pro, system-ui, serif;
 	--font-tamil-sans: adapter-tamil-text, system-ui, sans-serif;
+	--font-tulu-sans: mallige, sans-serif;
 }
-
 
 /* Page Formatting */
 body { 
@@ -85,4 +93,8 @@ a:hover {
 
 .tamil {
 	@apply font-tamil-sans;
+}
+
+.tulu {
+	@apply font-tulu-sans;	
 }

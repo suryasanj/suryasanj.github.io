@@ -40,6 +40,7 @@
     --default-mono-font-family: var(--font-mono);
     --font-display: p22-mackinac-pro, system-ui, serif;
     --font-tamil-sans: adapter-tamil-text, system-ui, sans-serif;
+    --font-tulu-sans: mallige, sans-serif;
   }
 }
 @layer base {
@@ -445,6 +446,12 @@
     }
   }
 }
+@font-face {
+  font-family: mallige;
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/Mallige.ttf') format('truetype');
+}
 body {
   font-family: var(--font-serif);
   -webkit-hyphens: auto;
@@ -520,6 +527,9 @@ a:hover {
 }
 .tamil {
   font-family: var(--font-tamil-sans);
+}
+.tulu {
+  font-family: var(--font-tulu-sans);
 }
 @property --tw-space-x-reverse {
   syntax: "*";

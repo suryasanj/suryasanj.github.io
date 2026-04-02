@@ -1,0 +1,196 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="../src/style/output.css" rel="stylesheet">
+		<title>Home</title>
+	</head>
+
+	<body class="text-slate-200 bg-black">
+  <h2>ISO 15919 →  Kannada</h2>
+
+  <input id="input" placeholder="Type ISO 15919 text…" style="width:100%;font-size:1.2rem;">
+  <div id="output" style="font-size:2rem" class="tulu"></div>
+
+  <script>
+
+		// define roman characters
+		const	a = '\u{0061}';
+		const	b = '\u{0062}';
+		const	c = '\u{0063}';
+		const	d = '\u{0064}';
+		const	e = '\u{0065}';
+		const	f = '\u{0066}';
+		const	g = '\u{0067}';
+		const	h = '\u{0068}';
+		const	i = '\u{0069}';
+		const	j = '\u{006A}';
+		const	k = '\u{006B}';
+		const	l = '\u{006C}';
+		const	m = '\u{006D}';
+		const	n = '\u{006E}';
+		const	o = '\u{006F}';
+		const	p = '\u{0070}';
+		const	q = '\u{0071}';
+		const	r = '\u{0072}';
+		const	s = '\u{0073}';
+		const	t = '\u{0074}';
+		const	u = '\u{0075}';
+		const	v = '\u{0076}';
+		const	w = '\u{0077}';
+		const	y = '\u{0079}';
+		const	z = '\u{007A}';
+		const	dash = '\u{002D}';
+		const	dot	= '\u{002E}';
+		const	equal =	'\u{003D}';
+		const	quote	= '\u{2018}';
+
+		// define diacritics and special characters
+		const ac = '\u{0301}'
+		const brva = '\u{0306}'
+		const bbi = '\u{032F}'
+		const bbn = '\u{032E}'
+		const cara = '\u{030C}'
+		const cma = '\u{036B}'
+		const db = '\u{0323}'
+		const dota = '\u{0307}'
+		const eng = '\u{014B}'
+		const ep = '\u{03B5}'
+		const maca = '\u{0304}'
+		const mb = '\u{0331}'
+		const rb = '\u{0325}'
+		const suph = '\u{02B0}'
+		const supthree = '\u{00B3}'
+		const tila = '\u{0303}'
+		const tr = '\u{0279}'
+		const vb = '\u{0329}'
+
+		// define tigalari vowels
+		const asvar = '\u{0C85}'; const aasvar = '\u{0C86}';
+		const isvar = '\u{0C87}'; const iisvar = '\u{0C88}';
+		const usvar = '\u{0C89}'; const uusvar = '\u{0C8A}';
+		const rsvar = '\u{0C8B}'; const rrsvar = '\u{0CE0}';
+		const lsvar = '\u{0C8C}'; const llsvar = '\u{0CE1}';
+		const esvar = '\u{0C8E}'; const eesvar = '\u{0C8F}'; const aisvar = '\u{0C90}'; 
+		const osvar = '\u{0C92}'; const oosvar = '\u{0C93}'; const ausvar = '\u{0C94}';
+
+		// define tigalari consonants
+		const ka =		'\u{0C95}'; const kha =		'\u{0C96}'; const ga =		'\u{0C97}'; const gha =		'\u{0C98}'; const nga =		'\u{0C99}';
+		const ca =		'\u{0C9A}'; const cha =		'\u{0C9B}'; const ja =		'\u{0C9C}'; const jha =		'\u{0C9D}'; const nya =		'\u{0C9E}';
+		const tta =		'\u{0C9F}'; const ttha =	'\u{0CA0}'; const dda =		'\u{0CA1}'; const ddha =	'\u{0CA2}'; const nna =		'\u{0CA3}';
+		const ta =		'\u{0CA4}'; const tha =		'\u{0CA5}'; const da =		'\u{0CA6}'; const dha =		'\u{0CA7}'; const na =		'\u{0CA8}';
+		const pa =		'\u{0CAA}'; const pha =		'\u{0CAB}'; const ba =		'\u{0CAC}'; const bha =		'\u{0CAD}'; const ma =		'\u{0CAE}';
+		const ya =		'\u{0CAF}'; const ra =		'\u{0CB0}'; const la =		'\u{0CB2}'; const va =		'\u{0CB5}';
+		const sha =		'\u{0CB6}'; const ssa =		'\u{0CB7}'; const sa =		'\u{0CB8}'; const ha =		'\u{0CB9}';
+		const lla =		'\u{0CB3}'; const rra =		'\u{0CB1}'; const llla =	'\u{0CDE}';
+
+		// define vedic symbols
+		const anu =		'\u{0C82}';
+		const ann =		'\u{0C81}';
+		const ava =		'\u{0CBD}';
+		const sid =		'\u{0C84}';
+		const vis =		'\u{0CD3}';
+
+		// define other symbols
+		const sda	=		'\u{0964}';
+		const ddn =		'\u{0965}';
+		const sri =		'\u{0CDC}';
+
+		// define matras
+		const aamatr = '\u{0CBE}';
+		const imatr = '\u{0CBF}'; const iimatr = '\u{0CC0}';
+		const umatr = '\u{0CC1}'; const uumatr = '\u{0CC2}';
+		const rmatr = '\u{0CC3}'; const rrmatr = '\u{0CC4}';
+		const lmatr = '\u{0CE2}'; const llmatr = '\u{0CE3}';
+		const ematr = '\u{0CC6}'; const eematr = '\u{0CC7}'; const aimatr = '\u{0CC8}'; 
+		const omatr = '\u{0CCA}'; const oomatr = '\u{0CCB}'; const aumatr = '\u{0CCC}';
+		const viram = '\u{0CCD}';
+
+		// initial mapping
+		mapping = {
+			a : asvar, [a + maca] : aasvar,
+			i : isvar, [i + maca] : iisvar,
+			u : usvar, [u + maca] : uusvar,
+			[r + vb] : rsvar, [r + vb + maca] : rrsvar,
+			[l + vb] : lsvar, [l + vb + maca] : llsvar,
+			e : esvar, [e + maca] : eesvar, [a + i] : aisvar,
+			o : osvar, [o + maca] : oosvar, [a + u] : ausvar,
+			k : ka, [k + h] : kha, g : ga, [g + h] : gha, [n + g] : nga,
+			c : ca, [c + h] : cha, j : ja, [j + h] : jha, [n + tila] : nya,
+			[t + db] : tta, [t + db + h] : ttha, [d + db] : dda, [d + db + h] : ddha, [n + db] : nna,
+			t : ta, [t + h] : tha, d : da, [d + h] : dha, n : na,
+			p : pa, [p + h] : pha, b : ba, [b + h] : bha, m : ma,
+			y : ya, r : ra, l : la, v : va, 
+			[s + ac] : sha, [s + db] : ssa, s : sa, h : ha, 
+			[l + db] : lla, [r + mb] : rra, [l + mb] : llla
+		}
+
+		// vowel -> matra
+		let cs = [3221, 3257]
+		let mvs = [3206, 3220]
+
+		mmap = {
+			[aasvar] : aamatr.normalize('NFD'),
+			[isvar] : imatr.normalize('NFD'), [iisvar] : iimatr.normalize('NFD'),
+			[usvar] : umatr.normalize('NFD'), [uusvar] : uumatr.normalize('NFD'),
+			[rsvar] : rmatr.normalize('NFD'), [rrsvar] : rrmatr.normalize('NFD'),
+			[lsvar] : lmatr.normalize('NFD'), [llsvar] : llmatr.normalize('NFD'),
+			[esvar] : ematr.normalize('NFD'), [eesvar] : eematr.normalize('NFD'), [aisvar] : aimatr.normalize('NFD'),
+			[osvar] : omatr.normalize('NFD'), [oosvar] : oomatr.normalize('NFD'), [ausvar] : aumatr.normalize('NFD'),
+			}
+
+  function roughTranslit(text) {
+		text = text.normalize('NFD');
+    const tokens = Object.keys(mapping).sort((a, b) => b.length - a.length);
+    const pattern = new RegExp(tokens.join('|'), 'g');
+    return text.replace(pattern, m => mapping[m] || m);
+  }
+
+		function addMatras(text) {
+			text = text.normalize('NFD');
+			let new_text = '';
+
+			for (let i = 0; i < text.length;) {
+				const code = text.codePointAt(i);
+				const char = String.fromCodePoint(code);
+
+				new_text += char;
+
+				if ((code >= cs[0] && code <= cs[1]) || code == 3294) { // consonant
+					let next_index = i + char.length;
+					const next_code = text.codePointAt(next_index);
+					const next_char = next_code ? String.fromCodePoint(next_code) : null;
+
+					if ((next_code && next_code >= mvs[0] && next_code <= mvs[1]) || next_code == 3296 || next_code == 3297) {
+						// next char is matra
+						new_text += mmap[next_char]; // append mapped matra
+						next_index += next_char.length; // skip matra in loop
+					} else if (next_code == 3205){
+						next_index += next_char.length;
+					} else {
+						// no matra → add viram
+						new_text += viram;
+					}
+
+					i = next_index; // move past consonant (+ matra if present)
+				} else {
+					i += char.length; // move past non-consonant
+				}
+			}
+
+			return new_text.normalize('NFC'); // compose ligatures if possible
+		}
+
+
+  document.getElementById('input').addEventListener('input', e => {
+    document.getElementById('output').innerText = addMatras(roughTranslit(e.target.value));
+  });
+  </script>
+</body>
+
+		<script type="module" src="./src/scripts/main.js"></script>
+	</body>
+
+</html>
