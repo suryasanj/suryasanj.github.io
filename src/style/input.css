@@ -64,7 +64,7 @@ p {
 }
 
 hr {
-	@apply text-slate-900/40;
+	@apply text-slate-700/40;
   @apply my-5;
 }
 
