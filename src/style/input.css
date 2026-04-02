@@ -124,6 +124,7 @@ a:hover {
 	@apply font-tamil-serif;
 	@apply text-[0.95rem];
 	@apply italic;
+	font-variant-ligatures: historical-ligatures common-ligatures discretionary-ligatures;
 }
 
 .tulu {
