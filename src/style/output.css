@@ -513,11 +513,9 @@ a:hover {
 }
 .tamil {
   font-family: var(--font-tamil-serif);
-  --tw-scale-x: 75%;
-  --tw-scale-y: 75%;
-  --tw-scale-z: 75%;
-  scale: var(--tw-scale-x) var(--tw-scale-y);
+  font-size: 0.95rem;
   font-style: italic;
+  font-variant-ligatures: historical-ligatures common-ligatures discretionary-ligatures;
 }
 .tulu {
   font-family: var(--font-tulu-sans);
@@ -645,21 +643,6 @@ a:hover {
   inherits: false;
   initial-value: 100%;
 }
-@property --tw-scale-x {
-  syntax: "*";
-  inherits: false;
-  initial-value: 1;
-}
-@property --tw-scale-y {
-  syntax: "*";
-  inherits: false;
-  initial-value: 1;
-}
-@property --tw-scale-z {
-  syntax: "*";
-  inherits: false;
-  initial-value: 1;
-}
 @layer properties {
   @supports ((-webkit-hyphens: none) and (not (margin-trim: inline))) or ((-moz-orient: inline) and (not (color:rgb(from red r g b)))) {
     *, ::before, ::after, ::backdrop {
@@ -692,9 +675,6 @@ a:hover {
       --tw-duration: initial;
       --tw-text-shadow-color: initial;
       --tw-text-shadow-alpha: 100%;
-      --tw-scale-x: 1;
-      --tw-scale-y: 1;
-      --tw-scale-z: 1;
     }
   }
 }
