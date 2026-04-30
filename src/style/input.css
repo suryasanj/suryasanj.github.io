@@ -110,6 +110,26 @@ a:hover {
   @apply underline;
 }
 
+table { 
+	@apply mx-auto;
+	@apply my-8;
+}
+
+td, th {
+	@apply text-center; 
+	@apply px-4;
+}
+
+thead {
+	@apply border-t-[1.5px];
+	@apply border-b-[0.75px];
+}
+
+tbody {
+	@apply border-b-[1.5px];
+}
+
+
 /* Classes */
 
 .dropdown {
@@ -133,4 +153,5 @@ a:hover {
 
 .ling {
 	@apply font-brill;
+	@apply leading-none;
 }

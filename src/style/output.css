@@ -27,6 +27,7 @@
     --text-4xl: 2.25rem;
     --text-4xl--line-height: calc(2.5 / 2.25);
     --font-weight-light: 300;
+    --font-weight-medium: 500;
     --font-weight-semibold: 600;
     --font-weight-bold: 700;
     --tracking-widest: 0.1em;
@@ -192,6 +193,9 @@
   }
   .relative {
     position: relative;
+  }
+  .isolate {
+    isolation: isolate;
   }
   .my-2 {
     margin-block: calc(var(--spacing) * 2);
@@ -368,6 +372,9 @@
       color: color-mix(in oklab, var(--color-slate-200) 40%, transparent);
     }
   }
+  .italic {
+    font-style: italic;
+  }
   .opacity-75 {
     opacity: 75%;
   }
@@ -504,6 +511,24 @@ ol, ul {
 a:hover {
   text-decoration-line: underline;
 }
+table {
+  margin-inline: auto;
+  margin-block: calc(var(--spacing) * 8);
+}
+td, th {
+  text-align: center;
+  padding-inline: calc(var(--spacing) * 4);
+}
+thead {
+  border-top-style: var(--tw-border-style);
+  border-top-width: 1.5px;
+  border-bottom-style: var(--tw-border-style);
+  border-bottom-width: 0.75px;
+}
+tbody {
+  border-bottom-style: var(--tw-border-style);
+  border-bottom-width: 1.5px;
+}
 .dropdown {
   margin-block: calc(var(--spacing) * 1);
 }
@@ -522,6 +547,8 @@ a:hover {
 }
 .ling {
   font-family: var(--font-brill);
+  --tw-leading: 1;
+  line-height: 1;
 }
 @property --tw-space-x-reverse {
   syntax: "*";
@@ -643,6 +670,10 @@ a:hover {
   inherits: false;
   initial-value: 100%;
 }
+@property --tw-leading {
+  syntax: "*";
+  inherits: false;
+}
 @layer properties {
   @supports ((-webkit-hyphens: none) and (not (margin-trim: inline))) or ((-moz-orient: inline) and (not (color:rgb(from red r g b)))) {
     *, ::before, ::after, ::backdrop {
@@ -675,6 +706,7 @@ a:hover {
       --tw-duration: initial;
       --tw-text-shadow-color: initial;
       --tw-text-shadow-alpha: 100%;
+      --tw-leading: initial;
     }
   }
 }
