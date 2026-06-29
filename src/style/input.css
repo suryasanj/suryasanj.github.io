@@ -2,6 +2,20 @@
 @import "tailwindcss" source("../../");
 
 @font-face {
+  font-family: inter;
+  src: url('../fonts/InterTight-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: inter;
+  src: url('../fonts/InterTight-Italic-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: italic;
+}
+
+@font-face {
 	font-family: mallige;
 	font-style: normal;
 	font-weight: 400;
@@ -38,7 +52,7 @@
 
 @theme {
 	--font-serif: minion-3, system-ui, serif; /* pliego */
-	--font-sans: neue-haas-grotesk-text, system-ui, sans-serif;
+	--font-sans: inter, system-ui, sans-serif;
 	--font-display: p22-mackinac-pro, system-ui, serif;
 	--font-tamil-serif: tiro-tamil, system-ui, sans-serif;
 	--font-tulu-sans: mallige, sans-serif;

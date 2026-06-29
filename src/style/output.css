@@ -4,7 +4,7 @@
 @layer theme, base, components, utilities;
 @layer theme {
   :root, :host {
-    --font-sans: neue-haas-grotesk-text, system-ui, sans-serif;
+    --font-sans: inter, system-ui, sans-serif;
     --font-serif: minion-3, system-ui, serif;
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
@@ -413,6 +413,18 @@
       }
     }
   }
+}
+@font-face {
+  font-family: inter;
+  src: url('../fonts/InterTight-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: inter;
+  src: url('../fonts/InterTight-Italic-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: italic;
 }
 @font-face {
   font-family: mallige;
