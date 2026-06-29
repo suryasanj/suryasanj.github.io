@@ -169,6 +169,5 @@ tbody {
 }
 
 .ling {
-	@apply font-brill;
 	@apply leading-none;
 }
