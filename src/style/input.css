@@ -37,7 +37,7 @@
 }
 
 @theme {
-	--font-serif: pliego, system-ui, serif;
+	--font-serif: brill, system-ui, serif; /* pliego */
 	--font-sans: neue-haas-grotesk-text, system-ui, sans-serif;
 	--font-display: p22-mackinac-pro, system-ui, serif;
 	--font-tamil-serif: tiro-tamil, system-ui, sans-serif;
