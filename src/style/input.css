@@ -37,7 +37,7 @@
 }
 
 @theme {
-	--font-serif: brill, system-ui, serif; /* pliego */
+	--font-serif: minion-3, system-ui, serif; /* pliego */
 	--font-sans: neue-haas-grotesk-text, system-ui, sans-serif;
 	--font-display: p22-mackinac-pro, system-ui, serif;
 	--font-tamil-serif: tiro-tamil, system-ui, sans-serif;
@@ -68,6 +68,7 @@ h2 {
 	@apply text-3xl/8;
 	@apply mt-3;
 	@apply mb-3;
+	font-family: minion-3-display, serif;
 }
 
 h3 {
@@ -75,6 +76,7 @@ h3 {
   @apply italic;
 	@apply mt-3;
 	@apply mb-3;
+	font-family: minion-3-subhead, serif;
 }
 
 h4 {
@@ -85,6 +87,7 @@ h4 {
 	@apply text-center;
 	@apply mt-3;
 	@apply mb-3;
+	font-family: minion-3-caption, serif;
 }
 
 p {

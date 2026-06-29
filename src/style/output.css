@@ -5,7 +5,7 @@
 @layer theme {
   :root, :host {
     --font-sans: neue-haas-grotesk-text, system-ui, sans-serif;
-    --font-serif: brill, system-ui, serif;
+    --font-serif: minion-3, system-ui, serif;
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
     --color-cyan-600: oklch(60.9% 0.126 221.723);
@@ -468,6 +468,7 @@ h2 {
   line-height: calc(var(--spacing) * 8);
   margin-top: calc(var(--spacing) * 3);
   margin-bottom: calc(var(--spacing) * 3);
+  font-family: minion-3-display, serif;
 }
 h3 {
   font-size: var(--text-2xl);
@@ -475,6 +476,7 @@ h3 {
   font-style: italic;
   margin-top: calc(var(--spacing) * 3);
   margin-bottom: calc(var(--spacing) * 3);
+  font-family: minion-3-subhead, serif;
 }
 h4 {
   font-size: var(--text-xl);
@@ -486,6 +488,7 @@ h4 {
   text-align: center;
   margin-top: calc(var(--spacing) * 3);
   margin-bottom: calc(var(--spacing) * 3);
+  font-family: minion-3-caption, serif;
 }
 p {
   margin-block: calc(var(--spacing) * 3);
