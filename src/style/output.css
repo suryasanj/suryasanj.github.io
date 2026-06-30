@@ -35,7 +35,7 @@
     --default-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     --default-font-family: var(--font-sans);
     --default-mono-font-family: var(--font-mono);
-    --font-display: p22-mackinac-pro, system-ui, serif;
+    --font-display: fraunces, system-ui, serif;
     --font-tamil-serif: tiro-tamil, system-ui, sans-serif;
     --font-tulu-sans: mallige, sans-serif;
   }
@@ -414,6 +414,18 @@
   }
 }
 @font-face {
+  font-family: fraunces;
+  src: url('../fonts/Fraunces-VariableFont_SOFT,WONK,opsz,wght.ttf') format('truetype-variations');
+  font-weight: 100 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: fraunces;
+  src: url('../fonts/Fraunces-Italic-VariableFont_SOFT,WONK,opsz,wght.ttf') format('truetype-variations');
+  font-weight: 100 900;
+  font-style: italic;
+}
+@font-face {
   font-family: inter;
   src: url('../fonts/InterTight-VariableFont_wght.ttf') format('truetype');
   font-weight: 100 900;
@@ -473,6 +485,7 @@ h1 {
   --tw-tracking: 2.5px;
   letter-spacing: 2.5px;
   margin-bottom: calc(var(--spacing) * 3);
+  font-variation-settings: 'SOFT' 100, 'WONK' 0, 'opsz' 144, 'wght' 400;
 }
 h2 {
   font-size: var(--text-3xl);
