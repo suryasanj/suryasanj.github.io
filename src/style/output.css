@@ -518,6 +518,7 @@ p {
   margin-block: calc(var(--spacing) * 3);
   font-size: var(--text-lg);
   line-height: calc(var(--spacing) * 5);
+  font-feature-settings: 'onum' 1;
 }
 hr {
   color: color-mix(in srgb, oklch(37.2% 0.044 257.287) 40%, transparent);

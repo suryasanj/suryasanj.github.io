@@ -122,6 +122,7 @@ h4 {
 p {
   @apply my-3;
 	@apply text-lg/5;
+	font-feature-settings: 'onum' 1;
 }
 
 hr {
