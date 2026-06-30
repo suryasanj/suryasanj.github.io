@@ -485,7 +485,7 @@ h1 {
   --tw-tracking: 2.5px;
   letter-spacing: 2.5px;
   margin-bottom: calc(var(--spacing) * 3);
-  font-variation-settings: 'SOFT' 100, 'WONK' 0, 'opsz' 144, 'wght' 400;
+  font-variation-settings: 'SOFT' 100, 'WONK' 0, 'opsz' 9, 'wght' 400;
 }
 h2 {
   font-size: var(--text-3xl);
