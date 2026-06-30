@@ -559,8 +559,12 @@ ol, ul {
 ol {
   list-style-type: decimal;
 }
+li {
+  --tw-leading: 1.1;
+  line-height: 1.1;
+}
 li::before {
-  color: var(--color-rose-700);
+  color: red;
 }
 a:hover {
   text-decoration-line: underline;
