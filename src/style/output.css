@@ -288,6 +288,10 @@
   .rounded-xl {
     border-radius: var(--radius-xl);
   }
+  .border {
+    border-style: var(--tw-border-style);
+    border-width: 1px;
+  }
   .border-2 {
     border-style: var(--tw-border-style);
     border-width: 2px;
@@ -607,6 +611,9 @@ code {
 .ling {
   --tw-leading: 1;
   line-height: 1;
+}
+.sc {
+  font-variant: small-caps;
 }
 @property --tw-space-x-reverse {
   syntax: "*";

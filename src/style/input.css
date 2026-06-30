@@ -223,3 +223,7 @@ code {
 .ling {
 	@apply leading-none;
 }
+
+.sc {
+	font-variant: small-caps;
+}
