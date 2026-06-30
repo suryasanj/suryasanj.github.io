@@ -461,7 +461,7 @@
   font-family: tirugane;
   font-style: normal;
   font-weight: 400;
-  src: url('../fonts/Tirugane-Roman.ttf') format('truetype');
+  src: url('../fonts/Tirugane-Regular.ttf') format('truetype');
 }
 @font-face {
   font-family: brill;
