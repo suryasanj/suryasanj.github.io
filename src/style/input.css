@@ -37,6 +37,34 @@
 }
 
 @font-face {
+	font-family: tirugane;
+	font-style: italic;
+	font-weight: 700;
+	src: url('../fonts/Tirugane-BoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: tirugane;
+	font-style: normal;
+	font-weight: 700;
+	src: url('../fonts/Tirugane-Bold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: tirugane;
+	font-style: italic;
+	font-weight: 400;
+	src: url('../fonts/Tirugane-Italic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: tirugane;
+	font-style: normal;
+	font-weight: 400;
+	src: url('../fonts/Tirugane-Roman.ttf') format('truetype');
+}
+
+@font-face {
 	font-family: brill;
 	font-style: italic;
 	font-weight: 700;
@@ -70,6 +98,7 @@
 	--font-display: fraunces, system-ui, serif; /* p22-mackinac-pro */
 	--font-tamil-serif: tiro-tamil, system-ui, sans-serif;
 	--font-tulu-sans: mallige, sans-serif;
+	--font-code: mallige, sans-serif;
 	--font-brill: brill, serif;
 }
 
@@ -169,6 +198,10 @@ thead {
 
 tbody {
 	@apply border-b-[1.5px];
+}
+
+code {
+	@apply font-code;
 }
 
 

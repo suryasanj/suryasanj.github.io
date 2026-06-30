@@ -39,6 +39,7 @@
     --font-display: fraunces, system-ui, serif;
     --font-tamil-serif: tiro-tamil, system-ui, sans-serif;
     --font-tulu-sans: mallige, sans-serif;
+    --font-code: mallige, sans-serif;
   }
 }
 @layer base {
@@ -446,6 +447,30 @@
   src: url('../fonts/Mallige.ttf') format('truetype');
 }
 @font-face {
+  font-family: tirugane;
+  font-style: italic;
+  font-weight: 700;
+  src: url('../fonts/Tirugane-BoldItalic.ttf') format('truetype');
+}
+@font-face {
+  font-family: tirugane;
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/Tirugane-Bold.ttf') format('truetype');
+}
+@font-face {
+  font-family: tirugane;
+  font-style: italic;
+  font-weight: 400;
+  src: url('../fonts/Tirugane-Italic.ttf') format('truetype');
+}
+@font-face {
+  font-family: tirugane;
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/Tirugane-Roman.ttf') format('truetype');
+}
+@font-face {
   font-family: brill;
   font-style: italic;
   font-weight: 700;
@@ -564,6 +589,9 @@ thead {
 tbody {
   border-bottom-style: var(--tw-border-style);
   border-bottom-width: 1.5px;
+}
+code {
+  font-family: var(--font-code);
 }
 .dropdown {
   margin-block: calc(var(--spacing) * 1);
