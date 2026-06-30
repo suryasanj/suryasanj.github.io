@@ -131,12 +131,21 @@ hr {
 }
 
 a {
-	@apply text-rose-700;
+	@apply text-cyan-700;
 }
 
 ol, ul {
 	@apply text-sm;
 	@apply ml-4;
+	@apply mb-4;
+}
+
+ol {
+	@apply list-decimal;
+}
+
+li::before {
+	@apply text-rose-700;
 }
 
 a:hover {
