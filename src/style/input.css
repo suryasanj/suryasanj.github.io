@@ -124,7 +124,7 @@ h2 {
 h3 {
   @apply text-2xl/6;
   @apply italic;
-	@apply mt-3;
+	@apply mt-6;
 	@apply mb-3;
 	font-family: minion-3-subhead, serif;
 }
