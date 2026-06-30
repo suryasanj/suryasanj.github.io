@@ -562,7 +562,7 @@ ol {
 li {
   --tw-leading: 1.1;
   line-height: 1.1;
-  margin-block: 3px;
+  margin-block: 5px;
 }
 li::before {
   color: red;
