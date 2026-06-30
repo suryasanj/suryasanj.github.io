@@ -137,7 +137,7 @@ a {
 ol, ul {
 	@apply text-sm;
 	@apply ml-4;
-	@apply mb-4;
+	@apply my-4;
 }
 
 ol {
